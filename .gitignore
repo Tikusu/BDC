@@ -1,5 +1,16 @@
 /TestImages
-/TrainImages
+/TrainImages/0_Recyclable/*.jpg
+/TrainImages/0_Recyclable/*.jpeg
+/TrainImages/0_Recyclable/*.png
+
+/TrainImages/1_Electronic/*.jpg
+/TrainImages/1_Electronic/*.jpeg
+/TrainImages/1_Electronic/*.png
+
+/TrainImages/2_Organic/*.jpg
+/TrainImages/2_Organic/*.jpeg
+/TrainImages/2_Organic/*.png
+
 /venv
 /preprocess/image_output/augmented_images/*
 /preprocess/image_output/anomaly/*
