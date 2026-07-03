@@ -1,4 +1,7 @@
-/TestImages
+/TestImages/*.jpg
+/TestImages/*.jpeg
+/TestImages/*.png
+
 /TrainImages/0_Recyclable/*.jpg
 /TrainImages/0_Recyclable/*.jpeg
 /TrainImages/0_Recyclable/*.png
