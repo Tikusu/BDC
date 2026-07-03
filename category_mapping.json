@@ -1,0 +1,4002 @@
+{
+    "0": {
+        "class_name": "tench",
+        "category": null
+    },
+    "1": {
+        "class_name": "goldfish",
+        "category": null
+    },
+    "2": {
+        "class_name": "great white shark",
+        "category": null
+    },
+    "3": {
+        "class_name": "tiger shark",
+        "category": null
+    },
+    "4": {
+        "class_name": "hammerhead",
+        "category": null
+    },
+    "5": {
+        "class_name": "electric ray",
+        "category": "Electronic Objects"
+    },
+    "6": {
+        "class_name": "stingray",
+        "category": "Recyclable Objects"
+    },
+    "7": {
+        "class_name": "cock",
+        "category": null
+    },
+    "8": {
+        "class_name": "hen",
+        "category": null
+    },
+    "9": {
+        "class_name": "ostrich",
+        "category": null
+    },
+    "10": {
+        "class_name": "brambling",
+        "category": null
+    },
+    "11": {
+        "class_name": "goldfinch",
+        "category": null
+    },
+    "12": {
+        "class_name": "house finch",
+        "category": null
+    },
+    "13": {
+        "class_name": "junco",
+        "category": null
+    },
+    "14": {
+        "class_name": "indigo bunting",
+        "category": "Recyclable Objects"
+    },
+    "15": {
+        "class_name": "robin",
+        "category": null
+    },
+    "16": {
+        "class_name": "bulbul",
+        "category": null
+    },
+    "17": {
+        "class_name": "jay",
+        "category": null
+    },
+    "18": {
+        "class_name": "magpie",
+        "category": null
+    },
+    "19": {
+        "class_name": "chickadee",
+        "category": null
+    },
+    "20": {
+        "class_name": "water ouzel",
+        "category": null
+    },
+    "21": {
+        "class_name": "kite",
+        "category": null
+    },
+    "22": {
+        "class_name": "bald eagle",
+        "category": null
+    },
+    "23": {
+        "class_name": "vulture",
+        "category": null
+    },
+    "24": {
+        "class_name": "great grey owl",
+        "category": null
+    },
+    "25": {
+        "class_name": "European fire salamander",
+        "category": null
+    },
+    "26": {
+        "class_name": "common newt",
+        "category": null
+    },
+    "27": {
+        "class_name": "eft",
+        "category": null
+    },
+    "28": {
+        "class_name": "spotted salamander",
+        "category": null
+    },
+    "29": {
+        "class_name": "axolotl",
+        "category": null
+    },
+    "30": {
+        "class_name": "bullfrog",
+        "category": null
+    },
+    "31": {
+        "class_name": "tree frog",
+        "category": null
+    },
+    "32": {
+        "class_name": "tailed frog",
+        "category": null
+    },
+    "33": {
+        "class_name": "loggerhead",
+        "category": null
+    },
+    "34": {
+        "class_name": "leatherback turtle",
+        "category": null
+    },
+    "35": {
+        "class_name": "mud turtle",
+        "category": null
+    },
+    "36": {
+        "class_name": "terrapin",
+        "category": null
+    },
+    "37": {
+        "class_name": "box turtle",
+        "category": "Recyclable Objects"
+    },
+    "38": {
+        "class_name": "banded gecko",
+        "category": null
+    },
+    "39": {
+        "class_name": "common iguana",
+        "category": null
+    },
+    "40": {
+        "class_name": "American chameleon",
+        "category": "Recyclable Objects"
+    },
+    "41": {
+        "class_name": "whiptail",
+        "category": "Organic Objects"
+    },
+    "42": {
+        "class_name": "agama",
+        "category": null
+    },
+    "43": {
+        "class_name": "frilled lizard",
+        "category": null
+    },
+    "44": {
+        "class_name": "alligator lizard",
+        "category": null
+    },
+    "45": {
+        "class_name": "Gila monster",
+        "category": null
+    },
+    "46": {
+        "class_name": "green lizard",
+        "category": null
+    },
+    "47": {
+        "class_name": "African chameleon",
+        "category": "Recyclable Objects"
+    },
+    "48": {
+        "class_name": "Komodo dragon",
+        "category": null
+    },
+    "49": {
+        "class_name": "African crocodile",
+        "category": "Recyclable Objects"
+    },
+    "50": {
+        "class_name": "American alligator",
+        "category": "Recyclable Objects"
+    },
+    "51": {
+        "class_name": "triceratops",
+        "category": null
+    },
+    "52": {
+        "class_name": "thunder snake",
+        "category": null
+    },
+    "53": {
+        "class_name": "ringneck snake",
+        "category": null
+    },
+    "54": {
+        "class_name": "hognose snake",
+        "category": null
+    },
+    "55": {
+        "class_name": "green snake",
+        "category": null
+    },
+    "56": {
+        "class_name": "king snake",
+        "category": null
+    },
+    "57": {
+        "class_name": "garter snake",
+        "category": null
+    },
+    "58": {
+        "class_name": "water snake",
+        "category": null
+    },
+    "59": {
+        "class_name": "vine snake",
+        "category": null
+    },
+    "60": {
+        "class_name": "night snake",
+        "category": null
+    },
+    "61": {
+        "class_name": "boa constrictor",
+        "category": null
+    },
+    "62": {
+        "class_name": "rock python",
+        "category": null
+    },
+    "63": {
+        "class_name": "Indian cobra",
+        "category": null
+    },
+    "64": {
+        "class_name": "green mamba",
+        "category": null
+    },
+    "65": {
+        "class_name": "sea snake",
+        "category": null
+    },
+    "66": {
+        "class_name": "horned viper",
+        "category": null
+    },
+    "67": {
+        "class_name": "diamondback",
+        "category": null
+    },
+    "68": {
+        "class_name": "sidewinder",
+        "category": null
+    },
+    "69": {
+        "class_name": "trilobite",
+        "category": null
+    },
+    "70": {
+        "class_name": "harvestman",
+        "category": null
+    },
+    "71": {
+        "class_name": "scorpion",
+        "category": null
+    },
+    "72": {
+        "class_name": "black and gold garden spider",
+        "category": null
+    },
+    "73": {
+        "class_name": "barn spider",
+        "category": null
+    },
+    "74": {
+        "class_name": "garden spider",
+        "category": null
+    },
+    "75": {
+        "class_name": "black widow",
+        "category": null
+    },
+    "76": {
+        "class_name": "tarantula",
+        "category": null
+    },
+    "77": {
+        "class_name": "wolf spider",
+        "category": null
+    },
+    "78": {
+        "class_name": "tick",
+        "category": null
+    },
+    "79": {
+        "class_name": "centipede",
+        "category": null
+    },
+    "80": {
+        "class_name": "black grouse",
+        "category": null
+    },
+    "81": {
+        "class_name": "ptarmigan",
+        "category": null
+    },
+    "82": {
+        "class_name": "ruffed grouse",
+        "category": null
+    },
+    "83": {
+        "class_name": "prairie chicken",
+        "category": null
+    },
+    "84": {
+        "class_name": "peacock",
+        "category": null
+    },
+    "85": {
+        "class_name": "quail",
+        "category": null
+    },
+    "86": {
+        "class_name": "partridge",
+        "category": null
+    },
+    "87": {
+        "class_name": "African grey",
+        "category": "Recyclable Objects"
+    },
+    "88": {
+        "class_name": "macaw",
+        "category": null
+    },
+    "89": {
+        "class_name": "sulphur-crested cockatoo",
+        "category": null
+    },
+    "90": {
+        "class_name": "lorikeet",
+        "category": null
+    },
+    "91": {
+        "class_name": "coucal",
+        "category": null
+    },
+    "92": {
+        "class_name": "bee eater",
+        "category": null
+    },
+    "93": {
+        "class_name": "hornbill",
+        "category": null
+    },
+    "94": {
+        "class_name": "hummingbird",
+        "category": null
+    },
+    "95": {
+        "class_name": "jacamar",
+        "category": null
+    },
+    "96": {
+        "class_name": "toucan",
+        "category": "Recyclable Objects"
+    },
+    "97": {
+        "class_name": "drake",
+        "category": null
+    },
+    "98": {
+        "class_name": "red-breasted merganser",
+        "category": null
+    },
+    "99": {
+        "class_name": "goose",
+        "category": null
+    },
+    "100": {
+        "class_name": "black swan",
+        "category": null
+    },
+    "101": {
+        "class_name": "tusker",
+        "category": null
+    },
+    "102": {
+        "class_name": "echidna",
+        "category": null
+    },
+    "103": {
+        "class_name": "platypus",
+        "category": null
+    },
+    "104": {
+        "class_name": "wallaby",
+        "category": null
+    },
+    "105": {
+        "class_name": "koala",
+        "category": null
+    },
+    "106": {
+        "class_name": "wombat",
+        "category": null
+    },
+    "107": {
+        "class_name": "jellyfish",
+        "category": null
+    },
+    "108": {
+        "class_name": "sea anemone",
+        "category": null
+    },
+    "109": {
+        "class_name": "brain coral",
+        "category": null
+    },
+    "110": {
+        "class_name": "flatworm",
+        "category": null
+    },
+    "111": {
+        "class_name": "nematode",
+        "category": null
+    },
+    "112": {
+        "class_name": "conch",
+        "category": null
+    },
+    "113": {
+        "class_name": "snail",
+        "category": null
+    },
+    "114": {
+        "class_name": "slug",
+        "category": null
+    },
+    "115": {
+        "class_name": "sea slug",
+        "category": null
+    },
+    "116": {
+        "class_name": "chiton",
+        "category": null
+    },
+    "117": {
+        "class_name": "chambered nautilus",
+        "category": null
+    },
+    "118": {
+        "class_name": "Dungeness crab",
+        "category": null
+    },
+    "119": {
+        "class_name": "rock crab",
+        "category": null
+    },
+    "120": {
+        "class_name": "fiddler crab",
+        "category": null
+    },
+    "121": {
+        "class_name": "king crab",
+        "category": null
+    },
+    "122": {
+        "class_name": "American lobster",
+        "category": "Recyclable Objects"
+    },
+    "123": {
+        "class_name": "spiny lobster",
+        "category": null
+    },
+    "124": {
+        "class_name": "crayfish",
+        "category": null
+    },
+    "125": {
+        "class_name": "hermit crab",
+        "category": null
+    },
+    "126": {
+        "class_name": "isopod",
+        "category": null
+    },
+    "127": {
+        "class_name": "white stork",
+        "category": null
+    },
+    "128": {
+        "class_name": "black stork",
+        "category": null
+    },
+    "129": {
+        "class_name": "spoonbill",
+        "category": null
+    },
+    "130": {
+        "class_name": "flamingo",
+        "category": null
+    },
+    "131": {
+        "class_name": "little blue heron",
+        "category": null
+    },
+    "132": {
+        "class_name": "American egret",
+        "category": "Recyclable Objects"
+    },
+    "133": {
+        "class_name": "bittern",
+        "category": null
+    },
+    "134": {
+        "class_name": "crane",
+        "category": null
+    },
+    "135": {
+        "class_name": "limpkin",
+        "category": null
+    },
+    "136": {
+        "class_name": "European gallinule",
+        "category": null
+    },
+    "137": {
+        "class_name": "American coot",
+        "category": "Recyclable Objects"
+    },
+    "138": {
+        "class_name": "bustard",
+        "category": null
+    },
+    "139": {
+        "class_name": "ruddy turnstone",
+        "category": null
+    },
+    "140": {
+        "class_name": "red-backed sandpiper",
+        "category": null
+    },
+    "141": {
+        "class_name": "redshank",
+        "category": null
+    },
+    "142": {
+        "class_name": "dowitcher",
+        "category": null
+    },
+    "143": {
+        "class_name": "oystercatcher",
+        "category": null
+    },
+    "144": {
+        "class_name": "pelican",
+        "category": "Recyclable Objects"
+    },
+    "145": {
+        "class_name": "king penguin",
+        "category": null
+    },
+    "146": {
+        "class_name": "albatross",
+        "category": null
+    },
+    "147": {
+        "class_name": "grey whale",
+        "category": null
+    },
+    "148": {
+        "class_name": "killer whale",
+        "category": null
+    },
+    "149": {
+        "class_name": "dugong",
+        "category": null
+    },
+    "150": {
+        "class_name": "sea lion",
+        "category": null
+    },
+    "151": {
+        "class_name": "Chihuahua",
+        "category": null
+    },
+    "152": {
+        "class_name": "Japanese spaniel",
+        "category": null
+    },
+    "153": {
+        "class_name": "Maltese dog",
+        "category": null
+    },
+    "154": {
+        "class_name": "Pekinese",
+        "category": null
+    },
+    "155": {
+        "class_name": "Shih-Tzu",
+        "category": null
+    },
+    "156": {
+        "class_name": "Blenheim spaniel",
+        "category": null
+    },
+    "157": {
+        "class_name": "papillon",
+        "category": null
+    },
+    "158": {
+        "class_name": "toy terrier",
+        "category": null
+    },
+    "159": {
+        "class_name": "Rhodesian ridgeback",
+        "category": null
+    },
+    "160": {
+        "class_name": "Afghan hound",
+        "category": null
+    },
+    "161": {
+        "class_name": "basset",
+        "category": null
+    },
+    "162": {
+        "class_name": "beagle",
+        "category": null
+    },
+    "163": {
+        "class_name": "bloodhound",
+        "category": null
+    },
+    "164": {
+        "class_name": "bluetick",
+        "category": null
+    },
+    "165": {
+        "class_name": "black-and-tan coonhound",
+        "category": null
+    },
+    "166": {
+        "class_name": "Walker hound",
+        "category": null
+    },
+    "167": {
+        "class_name": "English foxhound",
+        "category": null
+    },
+    "168": {
+        "class_name": "redbone",
+        "category": null
+    },
+    "169": {
+        "class_name": "borzoi",
+        "category": null
+    },
+    "170": {
+        "class_name": "Irish wolfhound",
+        "category": null
+    },
+    "171": {
+        "class_name": "Italian greyhound",
+        "category": null
+    },
+    "172": {
+        "class_name": "whippet",
+        "category": "Organic Objects"
+    },
+    "173": {
+        "class_name": "Ibizan hound",
+        "category": null
+    },
+    "174": {
+        "class_name": "Norwegian elkhound",
+        "category": null
+    },
+    "175": {
+        "class_name": "otterhound",
+        "category": null
+    },
+    "176": {
+        "class_name": "Saluki",
+        "category": null
+    },
+    "177": {
+        "class_name": "Scottish deerhound",
+        "category": null
+    },
+    "178": {
+        "class_name": "Weimaraner",
+        "category": null
+    },
+    "179": {
+        "class_name": "Staffordshire bullterrier",
+        "category": null
+    },
+    "180": {
+        "class_name": "American Staffordshire terrier",
+        "category": "Recyclable Objects"
+    },
+    "181": {
+        "class_name": "Bedlington terrier",
+        "category": null
+    },
+    "182": {
+        "class_name": "Border terrier",
+        "category": null
+    },
+    "183": {
+        "class_name": "Kerry blue terrier",
+        "category": null
+    },
+    "184": {
+        "class_name": "Irish terrier",
+        "category": null
+    },
+    "185": {
+        "class_name": "Norfolk terrier",
+        "category": null
+    },
+    "186": {
+        "class_name": "Norwich terrier",
+        "category": null
+    },
+    "187": {
+        "class_name": "Yorkshire terrier",
+        "category": null
+    },
+    "188": {
+        "class_name": "wire-haired fox terrier",
+        "category": null
+    },
+    "189": {
+        "class_name": "Lakeland terrier",
+        "category": null
+    },
+    "190": {
+        "class_name": "Sealyham terrier",
+        "category": null
+    },
+    "191": {
+        "class_name": "Airedale",
+        "category": null
+    },
+    "192": {
+        "class_name": "cairn",
+        "category": null
+    },
+    "193": {
+        "class_name": "Australian terrier",
+        "category": null
+    },
+    "194": {
+        "class_name": "Dandie Dinmont",
+        "category": null
+    },
+    "195": {
+        "class_name": "Boston bull",
+        "category": null
+    },
+    "196": {
+        "class_name": "miniature schnauzer",
+        "category": null
+    },
+    "197": {
+        "class_name": "giant schnauzer",
+        "category": null
+    },
+    "198": {
+        "class_name": "standard schnauzer",
+        "category": null
+    },
+    "199": {
+        "class_name": "Scotch terrier",
+        "category": null
+    },
+    "200": {
+        "class_name": "Tibetan terrier",
+        "category": null
+    },
+    "201": {
+        "class_name": "silky terrier",
+        "category": null
+    },
+    "202": {
+        "class_name": "soft-coated wheaten terrier",
+        "category": null
+    },
+    "203": {
+        "class_name": "West Highland white terrier",
+        "category": null
+    },
+    "204": {
+        "class_name": "Lhasa",
+        "category": null
+    },
+    "205": {
+        "class_name": "flat-coated retriever",
+        "category": null
+    },
+    "206": {
+        "class_name": "curly-coated retriever",
+        "category": null
+    },
+    "207": {
+        "class_name": "golden retriever",
+        "category": null
+    },
+    "208": {
+        "class_name": "Labrador retriever",
+        "category": null
+    },
+    "209": {
+        "class_name": "Chesapeake Bay retriever",
+        "category": null
+    },
+    "210": {
+        "class_name": "German short-haired pointer",
+        "category": null
+    },
+    "211": {
+        "class_name": "vizsla",
+        "category": null
+    },
+    "212": {
+        "class_name": "English setter",
+        "category": null
+    },
+    "213": {
+        "class_name": "Irish setter",
+        "category": null
+    },
+    "214": {
+        "class_name": "Gordon setter",
+        "category": null
+    },
+    "215": {
+        "class_name": "Brittany spaniel",
+        "category": null
+    },
+    "216": {
+        "class_name": "clumber",
+        "category": null
+    },
+    "217": {
+        "class_name": "English springer",
+        "category": null
+    },
+    "218": {
+        "class_name": "Welsh springer spaniel",
+        "category": null
+    },
+    "219": {
+        "class_name": "cocker spaniel",
+        "category": null
+    },
+    "220": {
+        "class_name": "Sussex spaniel",
+        "category": null
+    },
+    "221": {
+        "class_name": "Irish water spaniel",
+        "category": null
+    },
+    "222": {
+        "class_name": "kuvasz",
+        "category": null
+    },
+    "223": {
+        "class_name": "schipperke",
+        "category": "Organic Objects"
+    },
+    "224": {
+        "class_name": "groenendael",
+        "category": null
+    },
+    "225": {
+        "class_name": "malinois",
+        "category": null
+    },
+    "226": {
+        "class_name": "briard",
+        "category": null
+    },
+    "227": {
+        "class_name": "kelpie",
+        "category": null
+    },
+    "228": {
+        "class_name": "komondor",
+        "category": null
+    },
+    "229": {
+        "class_name": "Old English sheepdog",
+        "category": null
+    },
+    "230": {
+        "class_name": "Shetland sheepdog",
+        "category": null
+    },
+    "231": {
+        "class_name": "collie",
+        "category": null
+    },
+    "232": {
+        "class_name": "Border collie",
+        "category": null
+    },
+    "233": {
+        "class_name": "Bouvier des Flandres",
+        "category": null
+    },
+    "234": {
+        "class_name": "Rottweiler",
+        "category": null
+    },
+    "235": {
+        "class_name": "German shepherd",
+        "category": null
+    },
+    "236": {
+        "class_name": "Doberman",
+        "category": null
+    },
+    "237": {
+        "class_name": "miniature pinscher",
+        "category": null
+    },
+    "238": {
+        "class_name": "Greater Swiss Mountain dog",
+        "category": null
+    },
+    "239": {
+        "class_name": "Bernese mountain dog",
+        "category": null
+    },
+    "240": {
+        "class_name": "Appenzeller",
+        "category": null
+    },
+    "241": {
+        "class_name": "EntleBucher",
+        "category": null
+    },
+    "242": {
+        "class_name": "boxer",
+        "category": "Recyclable Objects"
+    },
+    "243": {
+        "class_name": "bull mastiff",
+        "category": null
+    },
+    "244": {
+        "class_name": "Tibetan mastiff",
+        "category": null
+    },
+    "245": {
+        "class_name": "French bulldog",
+        "category": null
+    },
+    "246": {
+        "class_name": "Great Dane",
+        "category": null
+    },
+    "247": {
+        "class_name": "Saint Bernard",
+        "category": null
+    },
+    "248": {
+        "class_name": "Eskimo dog",
+        "category": null
+    },
+    "249": {
+        "class_name": "malamute",
+        "category": null
+    },
+    "250": {
+        "class_name": "Siberian husky",
+        "category": null
+    },
+    "251": {
+        "class_name": "dalmatian",
+        "category": null
+    },
+    "252": {
+        "class_name": "affenpinscher",
+        "category": null
+    },
+    "253": {
+        "class_name": "basenji",
+        "category": null
+    },
+    "254": {
+        "class_name": "pug",
+        "category": null
+    },
+    "255": {
+        "class_name": "Leonberg",
+        "category": null
+    },
+    "256": {
+        "class_name": "Newfoundland",
+        "category": null
+    },
+    "257": {
+        "class_name": "Great Pyrenees",
+        "category": null
+    },
+    "258": {
+        "class_name": "Samoyed",
+        "category": null
+    },
+    "259": {
+        "class_name": "Pomeranian",
+        "category": null
+    },
+    "260": {
+        "class_name": "chow",
+        "category": null
+    },
+    "261": {
+        "class_name": "keeshond",
+        "category": null
+    },
+    "262": {
+        "class_name": "Brabancon griffon",
+        "category": null
+    },
+    "263": {
+        "class_name": "Pembroke",
+        "category": null
+    },
+    "264": {
+        "class_name": "Cardigan",
+        "category": null
+    },
+    "265": {
+        "class_name": "toy poodle",
+        "category": null
+    },
+    "266": {
+        "class_name": "miniature poodle",
+        "category": null
+    },
+    "267": {
+        "class_name": "standard poodle",
+        "category": null
+    },
+    "268": {
+        "class_name": "Mexican hairless",
+        "category": "Recyclable Objects"
+    },
+    "269": {
+        "class_name": "timber wolf",
+        "category": null
+    },
+    "270": {
+        "class_name": "white wolf",
+        "category": null
+    },
+    "271": {
+        "class_name": "red wolf",
+        "category": null
+    },
+    "272": {
+        "class_name": "coyote",
+        "category": null
+    },
+    "273": {
+        "class_name": "dingo",
+        "category": null
+    },
+    "274": {
+        "class_name": "dhole",
+        "category": null
+    },
+    "275": {
+        "class_name": "African hunting dog",
+        "category": "Recyclable Objects"
+    },
+    "276": {
+        "class_name": "hyena",
+        "category": null
+    },
+    "277": {
+        "class_name": "red fox",
+        "category": null
+    },
+    "278": {
+        "class_name": "kit fox",
+        "category": null
+    },
+    "279": {
+        "class_name": "Arctic fox",
+        "category": null
+    },
+    "280": {
+        "class_name": "grey fox",
+        "category": null
+    },
+    "281": {
+        "class_name": "tabby",
+        "category": null
+    },
+    "282": {
+        "class_name": "tiger cat",
+        "category": null
+    },
+    "283": {
+        "class_name": "Persian cat",
+        "category": null
+    },
+    "284": {
+        "class_name": "Siamese cat",
+        "category": null
+    },
+    "285": {
+        "class_name": "Egyptian cat",
+        "category": null
+    },
+    "286": {
+        "class_name": "cougar",
+        "category": null
+    },
+    "287": {
+        "class_name": "lynx",
+        "category": null
+    },
+    "288": {
+        "class_name": "leopard",
+        "category": null
+    },
+    "289": {
+        "class_name": "snow leopard",
+        "category": null
+    },
+    "290": {
+        "class_name": "jaguar",
+        "category": null
+    },
+    "291": {
+        "class_name": "lion",
+        "category": null
+    },
+    "292": {
+        "class_name": "tiger",
+        "category": null
+    },
+    "293": {
+        "class_name": "cheetah",
+        "category": null
+    },
+    "294": {
+        "class_name": "brown bear",
+        "category": null
+    },
+    "295": {
+        "class_name": "American black bear",
+        "category": "Recyclable Objects"
+    },
+    "296": {
+        "class_name": "ice bear",
+        "category": null
+    },
+    "297": {
+        "class_name": "sloth bear",
+        "category": null
+    },
+    "298": {
+        "class_name": "mongoose",
+        "category": null
+    },
+    "299": {
+        "class_name": "meerkat",
+        "category": null
+    },
+    "300": {
+        "class_name": "tiger beetle",
+        "category": null
+    },
+    "301": {
+        "class_name": "ladybug",
+        "category": null
+    },
+    "302": {
+        "class_name": "ground beetle",
+        "category": null
+    },
+    "303": {
+        "class_name": "long-horned beetle",
+        "category": null
+    },
+    "304": {
+        "class_name": "leaf beetle",
+        "category": "Organic Objects"
+    },
+    "305": {
+        "class_name": "dung beetle",
+        "category": null
+    },
+    "306": {
+        "class_name": "rhinoceros beetle",
+        "category": null
+    },
+    "307": {
+        "class_name": "weevil",
+        "category": null
+    },
+    "308": {
+        "class_name": "fly",
+        "category": null
+    },
+    "309": {
+        "class_name": "bee",
+        "category": null
+    },
+    "310": {
+        "class_name": "ant",
+        "category": null
+    },
+    "311": {
+        "class_name": "grasshopper",
+        "category": null
+    },
+    "312": {
+        "class_name": "cricket",
+        "category": null
+    },
+    "313": {
+        "class_name": "walking stick",
+        "category": null
+    },
+    "314": {
+        "class_name": "cockroach",
+        "category": null
+    },
+    "315": {
+        "class_name": "mantis",
+        "category": null
+    },
+    "316": {
+        "class_name": "cicada",
+        "category": null
+    },
+    "317": {
+        "class_name": "leafhopper",
+        "category": "Organic Objects"
+    },
+    "318": {
+        "class_name": "lacewing",
+        "category": null
+    },
+    "319": {
+        "class_name": "dragonfly",
+        "category": null
+    },
+    "320": {
+        "class_name": "damselfly",
+        "category": null
+    },
+    "321": {
+        "class_name": "admiral",
+        "category": null
+    },
+    "322": {
+        "class_name": "ringlet",
+        "category": null
+    },
+    "323": {
+        "class_name": "monarch",
+        "category": null
+    },
+    "324": {
+        "class_name": "cabbage butterfly",
+        "category": "Recyclable Objects"
+    },
+    "325": {
+        "class_name": "sulphur butterfly",
+        "category": null
+    },
+    "326": {
+        "class_name": "lycaenid",
+        "category": null
+    },
+    "327": {
+        "class_name": "starfish",
+        "category": null
+    },
+    "328": {
+        "class_name": "sea urchin",
+        "category": null
+    },
+    "329": {
+        "class_name": "sea cucumber",
+        "category": "Organic Objects"
+    },
+    "330": {
+        "class_name": "wood rabbit",
+        "category": null
+    },
+    "331": {
+        "class_name": "hare",
+        "category": null
+    },
+    "332": {
+        "class_name": "Angora",
+        "category": null
+    },
+    "333": {
+        "class_name": "hamster",
+        "category": null
+    },
+    "334": {
+        "class_name": "porcupine",
+        "category": null
+    },
+    "335": {
+        "class_name": "fox squirrel",
+        "category": null
+    },
+    "336": {
+        "class_name": "marmot",
+        "category": null
+    },
+    "337": {
+        "class_name": "beaver",
+        "category": null
+    },
+    "338": {
+        "class_name": "guinea pig",
+        "category": null
+    },
+    "339": {
+        "class_name": "sorrel",
+        "category": null
+    },
+    "340": {
+        "class_name": "zebra",
+        "category": null
+    },
+    "341": {
+        "class_name": "hog",
+        "category": null
+    },
+    "342": {
+        "class_name": "wild boar",
+        "category": null
+    },
+    "343": {
+        "class_name": "warthog",
+        "category": null
+    },
+    "344": {
+        "class_name": "hippopotamus",
+        "category": "Organic Objects"
+    },
+    "345": {
+        "class_name": "ox",
+        "category": null
+    },
+    "346": {
+        "class_name": "water buffalo",
+        "category": null
+    },
+    "347": {
+        "class_name": "bison",
+        "category": null
+    },
+    "348": {
+        "class_name": "ram",
+        "category": null
+    },
+    "349": {
+        "class_name": "bighorn",
+        "category": null
+    },
+    "350": {
+        "class_name": "ibex",
+        "category": null
+    },
+    "351": {
+        "class_name": "hartebeest",
+        "category": null
+    },
+    "352": {
+        "class_name": "impala",
+        "category": null
+    },
+    "353": {
+        "class_name": "gazelle",
+        "category": null
+    },
+    "354": {
+        "class_name": "Arabian camel",
+        "category": null
+    },
+    "355": {
+        "class_name": "llama",
+        "category": null
+    },
+    "356": {
+        "class_name": "weasel",
+        "category": null
+    },
+    "357": {
+        "class_name": "mink",
+        "category": null
+    },
+    "358": {
+        "class_name": "polecat",
+        "category": null
+    },
+    "359": {
+        "class_name": "black-footed ferret",
+        "category": null
+    },
+    "360": {
+        "class_name": "otter",
+        "category": null
+    },
+    "361": {
+        "class_name": "skunk",
+        "category": null
+    },
+    "362": {
+        "class_name": "badger",
+        "category": null
+    },
+    "363": {
+        "class_name": "armadillo",
+        "category": null
+    },
+    "364": {
+        "class_name": "three-toed sloth",
+        "category": null
+    },
+    "365": {
+        "class_name": "orangutan",
+        "category": null
+    },
+    "366": {
+        "class_name": "gorilla",
+        "category": null
+    },
+    "367": {
+        "class_name": "chimpanzee",
+        "category": null
+    },
+    "368": {
+        "class_name": "gibbon",
+        "category": null
+    },
+    "369": {
+        "class_name": "siamang",
+        "category": null
+    },
+    "370": {
+        "class_name": "guenon",
+        "category": null
+    },
+    "371": {
+        "class_name": "patas",
+        "category": null
+    },
+    "372": {
+        "class_name": "baboon",
+        "category": null
+    },
+    "373": {
+        "class_name": "macaque",
+        "category": null
+    },
+    "374": {
+        "class_name": "langur",
+        "category": null
+    },
+    "375": {
+        "class_name": "colobus",
+        "category": null
+    },
+    "376": {
+        "class_name": "proboscis monkey",
+        "category": null
+    },
+    "377": {
+        "class_name": "marmoset",
+        "category": null
+    },
+    "378": {
+        "class_name": "capuchin",
+        "category": null
+    },
+    "379": {
+        "class_name": "howler monkey",
+        "category": null
+    },
+    "380": {
+        "class_name": "titi",
+        "category": null
+    },
+    "381": {
+        "class_name": "spider monkey",
+        "category": null
+    },
+    "382": {
+        "class_name": "squirrel monkey",
+        "category": null
+    },
+    "383": {
+        "class_name": "Madagascar cat",
+        "category": null
+    },
+    "384": {
+        "class_name": "indri",
+        "category": null
+    },
+    "385": {
+        "class_name": "Indian elephant",
+        "category": null
+    },
+    "386": {
+        "class_name": "African elephant",
+        "category": "Recyclable Objects"
+    },
+    "387": {
+        "class_name": "lesser panda",
+        "category": null
+    },
+    "388": {
+        "class_name": "giant panda",
+        "category": null
+    },
+    "389": {
+        "class_name": "barracouta",
+        "category": null
+    },
+    "390": {
+        "class_name": "eel",
+        "category": null
+    },
+    "391": {
+        "class_name": "coho",
+        "category": null
+    },
+    "392": {
+        "class_name": "rock beauty",
+        "category": null
+    },
+    "393": {
+        "class_name": "anemone fish",
+        "category": null
+    },
+    "394": {
+        "class_name": "sturgeon",
+        "category": null
+    },
+    "395": {
+        "class_name": "gar",
+        "category": null
+    },
+    "396": {
+        "class_name": "lionfish",
+        "category": null
+    },
+    "397": {
+        "class_name": "puffer",
+        "category": null
+    },
+    "398": {
+        "class_name": "abacus",
+        "category": null
+    },
+    "399": {
+        "class_name": "abaya",
+        "category": null
+    },
+    "400": {
+        "class_name": "academic gown",
+        "category": null
+    },
+    "401": {
+        "class_name": "accordion",
+        "category": null
+    },
+    "402": {
+        "class_name": "acoustic guitar",
+        "category": null
+    },
+    "403": {
+        "class_name": "aircraft carrier",
+        "category": null
+    },
+    "404": {
+        "class_name": "airliner",
+        "category": null
+    },
+    "405": {
+        "class_name": "airship",
+        "category": "Organic Objects"
+    },
+    "406": {
+        "class_name": "altar",
+        "category": null
+    },
+    "407": {
+        "class_name": "ambulance",
+        "category": null
+    },
+    "408": {
+        "class_name": "amphibian",
+        "category": null
+    },
+    "409": {
+        "class_name": "analog clock",
+        "category": null
+    },
+    "410": {
+        "class_name": "apiary",
+        "category": null
+    },
+    "411": {
+        "class_name": "apron",
+        "category": null
+    },
+    "412": {
+        "class_name": "ashcan",
+        "category": "Recyclable Objects"
+    },
+    "413": {
+        "class_name": "assault rifle",
+        "category": null
+    },
+    "414": {
+        "class_name": "backpack",
+        "category": null
+    },
+    "415": {
+        "class_name": "bakery",
+        "category": null
+    },
+    "416": {
+        "class_name": "balance beam",
+        "category": null
+    },
+    "417": {
+        "class_name": "balloon",
+        "category": null
+    },
+    "418": {
+        "class_name": "ballpoint",
+        "category": null
+    },
+    "419": {
+        "class_name": "Band Aid",
+        "category": null
+    },
+    "420": {
+        "class_name": "banjo",
+        "category": null
+    },
+    "421": {
+        "class_name": "bannister",
+        "category": null
+    },
+    "422": {
+        "class_name": "barbell",
+        "category": null
+    },
+    "423": {
+        "class_name": "barber chair",
+        "category": null
+    },
+    "424": {
+        "class_name": "barbershop",
+        "category": null
+    },
+    "425": {
+        "class_name": "barn",
+        "category": null
+    },
+    "426": {
+        "class_name": "barometer",
+        "category": null
+    },
+    "427": {
+        "class_name": "barrel",
+        "category": "Recyclable Objects"
+    },
+    "428": {
+        "class_name": "barrow",
+        "category": null
+    },
+    "429": {
+        "class_name": "baseball",
+        "category": null
+    },
+    "430": {
+        "class_name": "basketball",
+        "category": null
+    },
+    "431": {
+        "class_name": "bassinet",
+        "category": null
+    },
+    "432": {
+        "class_name": "bassoon",
+        "category": null
+    },
+    "433": {
+        "class_name": "bathing cap",
+        "category": null
+    },
+    "434": {
+        "class_name": "bath towel",
+        "category": null
+    },
+    "435": {
+        "class_name": "bathtub",
+        "category": null
+    },
+    "436": {
+        "class_name": "beach wagon",
+        "category": null
+    },
+    "437": {
+        "class_name": "beacon",
+        "category": null
+    },
+    "438": {
+        "class_name": "beaker",
+        "category": null
+    },
+    "439": {
+        "class_name": "bearskin",
+        "category": null
+    },
+    "440": {
+        "class_name": "beer bottle",
+        "category": "Recyclable Objects"
+    },
+    "441": {
+        "class_name": "beer glass",
+        "category": null
+    },
+    "442": {
+        "class_name": "bell cote",
+        "category": null
+    },
+    "443": {
+        "class_name": "bib",
+        "category": null
+    },
+    "444": {
+        "class_name": "bicycle-built-for-two",
+        "category": null
+    },
+    "445": {
+        "class_name": "bikini",
+        "category": null
+    },
+    "446": {
+        "class_name": "binder",
+        "category": null
+    },
+    "447": {
+        "class_name": "binoculars",
+        "category": null
+    },
+    "448": {
+        "class_name": "birdhouse",
+        "category": null
+    },
+    "449": {
+        "class_name": "boathouse",
+        "category": null
+    },
+    "450": {
+        "class_name": "bobsled",
+        "category": null
+    },
+    "451": {
+        "class_name": "bolo tie",
+        "category": null
+    },
+    "452": {
+        "class_name": "bonnet",
+        "category": null
+    },
+    "453": {
+        "class_name": "bookcase",
+        "category": "Recyclable Objects"
+    },
+    "454": {
+        "class_name": "bookshop",
+        "category": "Recyclable Objects"
+    },
+    "455": {
+        "class_name": "bottlecap",
+        "category": "Recyclable Objects"
+    },
+    "456": {
+        "class_name": "bow",
+        "category": null
+    },
+    "457": {
+        "class_name": "bow tie",
+        "category": null
+    },
+    "458": {
+        "class_name": "brass",
+        "category": null
+    },
+    "459": {
+        "class_name": "brassiere",
+        "category": null
+    },
+    "460": {
+        "class_name": "breakwater",
+        "category": null
+    },
+    "461": {
+        "class_name": "breastplate",
+        "category": null
+    },
+    "462": {
+        "class_name": "broom",
+        "category": null
+    },
+    "463": {
+        "class_name": "bucket",
+        "category": null
+    },
+    "464": {
+        "class_name": "buckle",
+        "category": null
+    },
+    "465": {
+        "class_name": "bulletproof vest",
+        "category": null
+    },
+    "466": {
+        "class_name": "bullet train",
+        "category": null
+    },
+    "467": {
+        "class_name": "butcher shop",
+        "category": null
+    },
+    "468": {
+        "class_name": "cab",
+        "category": null
+    },
+    "469": {
+        "class_name": "caldron",
+        "category": null
+    },
+    "470": {
+        "class_name": "candle",
+        "category": "Recyclable Objects"
+    },
+    "471": {
+        "class_name": "cannon",
+        "category": "Recyclable Objects"
+    },
+    "472": {
+        "class_name": "canoe",
+        "category": "Recyclable Objects"
+    },
+    "473": {
+        "class_name": "can opener",
+        "category": "Recyclable Objects"
+    },
+    "474": {
+        "class_name": "cardigan",
+        "category": null
+    },
+    "475": {
+        "class_name": "car mirror",
+        "category": null
+    },
+    "476": {
+        "class_name": "carousel",
+        "category": null
+    },
+    "477": {
+        "class_name": "carpenter's kit",
+        "category": null
+    },
+    "478": {
+        "class_name": "carton",
+        "category": "Recyclable Objects"
+    },
+    "479": {
+        "class_name": "car wheel",
+        "category": null
+    },
+    "480": {
+        "class_name": "cash machine",
+        "category": null
+    },
+    "481": {
+        "class_name": "cassette",
+        "category": null
+    },
+    "482": {
+        "class_name": "cassette player",
+        "category": "Electronic Objects"
+    },
+    "483": {
+        "class_name": "castle",
+        "category": null
+    },
+    "484": {
+        "class_name": "catamaran",
+        "category": null
+    },
+    "485": {
+        "class_name": "CD player",
+        "category": null
+    },
+    "486": {
+        "class_name": "cello",
+        "category": null
+    },
+    "487": {
+        "class_name": "cellular telephone",
+        "category": "Electronic Objects"
+    },
+    "488": {
+        "class_name": "chain",
+        "category": null
+    },
+    "489": {
+        "class_name": "chainlink fence",
+        "category": null
+    },
+    "490": {
+        "class_name": "chain mail",
+        "category": null
+    },
+    "491": {
+        "class_name": "chain saw",
+        "category": null
+    },
+    "492": {
+        "class_name": "chest",
+        "category": null
+    },
+    "493": {
+        "class_name": "chiffonier",
+        "category": null
+    },
+    "494": {
+        "class_name": "chime",
+        "category": null
+    },
+    "495": {
+        "class_name": "china cabinet",
+        "category": null
+    },
+    "496": {
+        "class_name": "Christmas stocking",
+        "category": null
+    },
+    "497": {
+        "class_name": "church",
+        "category": null
+    },
+    "498": {
+        "class_name": "cinema",
+        "category": null
+    },
+    "499": {
+        "class_name": "cleaver",
+        "category": null
+    },
+    "500": {
+        "class_name": "cliff dwelling",
+        "category": null
+    },
+    "501": {
+        "class_name": "cloak",
+        "category": null
+    },
+    "502": {
+        "class_name": "clog",
+        "category": null
+    },
+    "503": {
+        "class_name": "cocktail shaker",
+        "category": null
+    },
+    "504": {
+        "class_name": "coffee mug",
+        "category": null
+    },
+    "505": {
+        "class_name": "coffeepot",
+        "category": null
+    },
+    "506": {
+        "class_name": "coil",
+        "category": null
+    },
+    "507": {
+        "class_name": "combination lock",
+        "category": null
+    },
+    "508": {
+        "class_name": "computer keyboard",
+        "category": "Electronic Objects"
+    },
+    "509": {
+        "class_name": "confectionery",
+        "category": null
+    },
+    "510": {
+        "class_name": "container ship",
+        "category": "Organic Objects"
+    },
+    "511": {
+        "class_name": "convertible",
+        "category": null
+    },
+    "512": {
+        "class_name": "corkscrew",
+        "category": null
+    },
+    "513": {
+        "class_name": "cornet",
+        "category": "Organic Objects"
+    },
+    "514": {
+        "class_name": "cowboy boot",
+        "category": null
+    },
+    "515": {
+        "class_name": "cowboy hat",
+        "category": null
+    },
+    "516": {
+        "class_name": "cradle",
+        "category": null
+    },
+    "517": {
+        "class_name": "crane",
+        "category": null
+    },
+    "518": {
+        "class_name": "crash helmet",
+        "category": null
+    },
+    "519": {
+        "class_name": "crate",
+        "category": "Recyclable Objects"
+    },
+    "520": {
+        "class_name": "crib",
+        "category": null
+    },
+    "521": {
+        "class_name": "Crock Pot",
+        "category": null
+    },
+    "522": {
+        "class_name": "croquet ball",
+        "category": null
+    },
+    "523": {
+        "class_name": "crutch",
+        "category": null
+    },
+    "524": {
+        "class_name": "cuirass",
+        "category": null
+    },
+    "525": {
+        "class_name": "dam",
+        "category": null
+    },
+    "526": {
+        "class_name": "desk",
+        "category": null
+    },
+    "527": {
+        "class_name": "desktop computer",
+        "category": "Electronic Objects"
+    },
+    "528": {
+        "class_name": "dial telephone",
+        "category": "Electronic Objects"
+    },
+    "529": {
+        "class_name": "diaper",
+        "category": null
+    },
+    "530": {
+        "class_name": "digital clock",
+        "category": "Electronic Objects"
+    },
+    "531": {
+        "class_name": "digital watch",
+        "category": "Electronic Objects"
+    },
+    "532": {
+        "class_name": "dining table",
+        "category": null
+    },
+    "533": {
+        "class_name": "dishrag",
+        "category": null
+    },
+    "534": {
+        "class_name": "dishwasher",
+        "category": "Electronic Objects"
+    },
+    "535": {
+        "class_name": "disk brake",
+        "category": null
+    },
+    "536": {
+        "class_name": "dock",
+        "category": null
+    },
+    "537": {
+        "class_name": "dogsled",
+        "category": null
+    },
+    "538": {
+        "class_name": "dome",
+        "category": null
+    },
+    "539": {
+        "class_name": "doormat",
+        "category": null
+    },
+    "540": {
+        "class_name": "drilling platform",
+        "category": null
+    },
+    "541": {
+        "class_name": "drum",
+        "category": null
+    },
+    "542": {
+        "class_name": "drumstick",
+        "category": null
+    },
+    "543": {
+        "class_name": "dumbbell",
+        "category": null
+    },
+    "544": {
+        "class_name": "Dutch oven",
+        "category": null
+    },
+    "545": {
+        "class_name": "electric fan",
+        "category": "Electronic Objects"
+    },
+    "546": {
+        "class_name": "electric guitar",
+        "category": "Electronic Objects"
+    },
+    "547": {
+        "class_name": "electric locomotive",
+        "category": "Electronic Objects"
+    },
+    "548": {
+        "class_name": "entertainment center",
+        "category": null
+    },
+    "549": {
+        "class_name": "envelope",
+        "category": "Recyclable Objects"
+    },
+    "550": {
+        "class_name": "espresso maker",
+        "category": null
+    },
+    "551": {
+        "class_name": "face powder",
+        "category": null
+    },
+    "552": {
+        "class_name": "feather boa",
+        "category": null
+    },
+    "553": {
+        "class_name": "file",
+        "category": null
+    },
+    "554": {
+        "class_name": "fireboat",
+        "category": null
+    },
+    "555": {
+        "class_name": "fire engine",
+        "category": null
+    },
+    "556": {
+        "class_name": "fire screen",
+        "category": "Electronic Objects"
+    },
+    "557": {
+        "class_name": "flagpole",
+        "category": null
+    },
+    "558": {
+        "class_name": "flute",
+        "category": null
+    },
+    "559": {
+        "class_name": "folding chair",
+        "category": null
+    },
+    "560": {
+        "class_name": "football helmet",
+        "category": null
+    },
+    "561": {
+        "class_name": "forklift",
+        "category": null
+    },
+    "562": {
+        "class_name": "fountain",
+        "category": null
+    },
+    "563": {
+        "class_name": "fountain pen",
+        "category": null
+    },
+    "564": {
+        "class_name": "four-poster",
+        "category": null
+    },
+    "565": {
+        "class_name": "freight car",
+        "category": null
+    },
+    "566": {
+        "class_name": "French horn",
+        "category": null
+    },
+    "567": {
+        "class_name": "frying pan",
+        "category": null
+    },
+    "568": {
+        "class_name": "fur coat",
+        "category": null
+    },
+    "569": {
+        "class_name": "garbage truck",
+        "category": "Recyclable Objects"
+    },
+    "570": {
+        "class_name": "gasmask",
+        "category": null
+    },
+    "571": {
+        "class_name": "gas pump",
+        "category": null
+    },
+    "572": {
+        "class_name": "goblet",
+        "category": null
+    },
+    "573": {
+        "class_name": "go-kart",
+        "category": null
+    },
+    "574": {
+        "class_name": "golf ball",
+        "category": null
+    },
+    "575": {
+        "class_name": "golfcart",
+        "category": null
+    },
+    "576": {
+        "class_name": "gondola",
+        "category": null
+    },
+    "577": {
+        "class_name": "gong",
+        "category": null
+    },
+    "578": {
+        "class_name": "gown",
+        "category": null
+    },
+    "579": {
+        "class_name": "grand piano",
+        "category": null
+    },
+    "580": {
+        "class_name": "greenhouse",
+        "category": null
+    },
+    "581": {
+        "class_name": "grille",
+        "category": null
+    },
+    "582": {
+        "class_name": "grocery store",
+        "category": null
+    },
+    "583": {
+        "class_name": "guillotine",
+        "category": "Recyclable Objects"
+    },
+    "584": {
+        "class_name": "hair slide",
+        "category": null
+    },
+    "585": {
+        "class_name": "hair spray",
+        "category": null
+    },
+    "586": {
+        "class_name": "half track",
+        "category": null
+    },
+    "587": {
+        "class_name": "hammer",
+        "category": null
+    },
+    "588": {
+        "class_name": "hamper",
+        "category": null
+    },
+    "589": {
+        "class_name": "hand blower",
+        "category": null
+    },
+    "590": {
+        "class_name": "hand-held computer",
+        "category": "Electronic Objects"
+    },
+    "591": {
+        "class_name": "handkerchief",
+        "category": null
+    },
+    "592": {
+        "class_name": "hard disc",
+        "category": "Electronic Objects"
+    },
+    "593": {
+        "class_name": "harmonica",
+        "category": null
+    },
+    "594": {
+        "class_name": "harp",
+        "category": null
+    },
+    "595": {
+        "class_name": "harvester",
+        "category": null
+    },
+    "596": {
+        "class_name": "hatchet",
+        "category": null
+    },
+    "597": {
+        "class_name": "holster",
+        "category": null
+    },
+    "598": {
+        "class_name": "home theater",
+        "category": null
+    },
+    "599": {
+        "class_name": "honeycomb",
+        "category": null
+    },
+    "600": {
+        "class_name": "hook",
+        "category": null
+    },
+    "601": {
+        "class_name": "hoopskirt",
+        "category": null
+    },
+    "602": {
+        "class_name": "horizontal bar",
+        "category": null
+    },
+    "603": {
+        "class_name": "horse cart",
+        "category": null
+    },
+    "604": {
+        "class_name": "hourglass",
+        "category": null
+    },
+    "605": {
+        "class_name": "iPod",
+        "category": null
+    },
+    "606": {
+        "class_name": "iron",
+        "category": null
+    },
+    "607": {
+        "class_name": "jack-o'-lantern",
+        "category": null
+    },
+    "608": {
+        "class_name": "jean",
+        "category": null
+    },
+    "609": {
+        "class_name": "jeep",
+        "category": null
+    },
+    "610": {
+        "class_name": "jersey",
+        "category": null
+    },
+    "611": {
+        "class_name": "jigsaw puzzle",
+        "category": null
+    },
+    "612": {
+        "class_name": "jinrikisha",
+        "category": null
+    },
+    "613": {
+        "class_name": "joystick",
+        "category": "Electronic Objects"
+    },
+    "614": {
+        "class_name": "kimono",
+        "category": null
+    },
+    "615": {
+        "class_name": "knee pad",
+        "category": null
+    },
+    "616": {
+        "class_name": "knot",
+        "category": null
+    },
+    "617": {
+        "class_name": "lab coat",
+        "category": null
+    },
+    "618": {
+        "class_name": "ladle",
+        "category": null
+    },
+    "619": {
+        "class_name": "lampshade",
+        "category": null
+    },
+    "620": {
+        "class_name": "laptop",
+        "category": "Electronic Objects"
+    },
+    "621": {
+        "class_name": "lawn mower",
+        "category": null
+    },
+    "622": {
+        "class_name": "lens cap",
+        "category": null
+    },
+    "623": {
+        "class_name": "letter opener",
+        "category": null
+    },
+    "624": {
+        "class_name": "library",
+        "category": null
+    },
+    "625": {
+        "class_name": "lifeboat",
+        "category": null
+    },
+    "626": {
+        "class_name": "lighter",
+        "category": null
+    },
+    "627": {
+        "class_name": "limousine",
+        "category": null
+    },
+    "628": {
+        "class_name": "liner",
+        "category": null
+    },
+    "629": {
+        "class_name": "lipstick",
+        "category": null
+    },
+    "630": {
+        "class_name": "Loafer",
+        "category": null
+    },
+    "631": {
+        "class_name": "lotion",
+        "category": null
+    },
+    "632": {
+        "class_name": "loudspeaker",
+        "category": "Electronic Objects"
+    },
+    "633": {
+        "class_name": "loupe",
+        "category": null
+    },
+    "634": {
+        "class_name": "lumbermill",
+        "category": null
+    },
+    "635": {
+        "class_name": "magnetic compass",
+        "category": null
+    },
+    "636": {
+        "class_name": "mailbag",
+        "category": "Recyclable Objects"
+    },
+    "637": {
+        "class_name": "mailbox",
+        "category": "Recyclable Objects"
+    },
+    "638": {
+        "class_name": "maillot",
+        "category": null
+    },
+    "639": {
+        "class_name": "maillot",
+        "category": null
+    },
+    "640": {
+        "class_name": "manhole cover",
+        "category": null
+    },
+    "641": {
+        "class_name": "maraca",
+        "category": null
+    },
+    "642": {
+        "class_name": "marimba",
+        "category": null
+    },
+    "643": {
+        "class_name": "mask",
+        "category": null
+    },
+    "644": {
+        "class_name": "matchstick",
+        "category": null
+    },
+    "645": {
+        "class_name": "maypole",
+        "category": null
+    },
+    "646": {
+        "class_name": "maze",
+        "category": null
+    },
+    "647": {
+        "class_name": "measuring cup",
+        "category": null
+    },
+    "648": {
+        "class_name": "medicine chest",
+        "category": null
+    },
+    "649": {
+        "class_name": "megalith",
+        "category": null
+    },
+    "650": {
+        "class_name": "microphone",
+        "category": "Electronic Objects"
+    },
+    "651": {
+        "class_name": "microwave",
+        "category": "Electronic Objects"
+    },
+    "652": {
+        "class_name": "military uniform",
+        "category": null
+    },
+    "653": {
+        "class_name": "milk can",
+        "category": "Recyclable Objects"
+    },
+    "654": {
+        "class_name": "minibus",
+        "category": null
+    },
+    "655": {
+        "class_name": "miniskirt",
+        "category": null
+    },
+    "656": {
+        "class_name": "minivan",
+        "category": null
+    },
+    "657": {
+        "class_name": "missile",
+        "category": null
+    },
+    "658": {
+        "class_name": "mitten",
+        "category": null
+    },
+    "659": {
+        "class_name": "mixing bowl",
+        "category": null
+    },
+    "660": {
+        "class_name": "mobile home",
+        "category": null
+    },
+    "661": {
+        "class_name": "Model T",
+        "category": null
+    },
+    "662": {
+        "class_name": "modem",
+        "category": "Electronic Objects"
+    },
+    "663": {
+        "class_name": "monastery",
+        "category": null
+    },
+    "664": {
+        "class_name": "monitor",
+        "category": "Electronic Objects"
+    },
+    "665": {
+        "class_name": "moped",
+        "category": null
+    },
+    "666": {
+        "class_name": "mortar",
+        "category": null
+    },
+    "667": {
+        "class_name": "mortarboard",
+        "category": null
+    },
+    "668": {
+        "class_name": "mosque",
+        "category": null
+    },
+    "669": {
+        "class_name": "mosquito net",
+        "category": null
+    },
+    "670": {
+        "class_name": "motor scooter",
+        "category": null
+    },
+    "671": {
+        "class_name": "mountain bike",
+        "category": null
+    },
+    "672": {
+        "class_name": "mountain tent",
+        "category": null
+    },
+    "673": {
+        "class_name": "mouse",
+        "category": "Electronic Objects"
+    },
+    "674": {
+        "class_name": "mousetrap",
+        "category": "Electronic Objects"
+    },
+    "675": {
+        "class_name": "moving van",
+        "category": null
+    },
+    "676": {
+        "class_name": "muzzle",
+        "category": null
+    },
+    "677": {
+        "class_name": "nail",
+        "category": null
+    },
+    "678": {
+        "class_name": "neck brace",
+        "category": null
+    },
+    "679": {
+        "class_name": "necklace",
+        "category": null
+    },
+    "680": {
+        "class_name": "nipple",
+        "category": null
+    },
+    "681": {
+        "class_name": "notebook",
+        "category": "Recyclable Objects"
+    },
+    "682": {
+        "class_name": "obelisk",
+        "category": null
+    },
+    "683": {
+        "class_name": "oboe",
+        "category": null
+    },
+    "684": {
+        "class_name": "ocarina",
+        "category": null
+    },
+    "685": {
+        "class_name": "odometer",
+        "category": null
+    },
+    "686": {
+        "class_name": "oil filter",
+        "category": null
+    },
+    "687": {
+        "class_name": "organ",
+        "category": null
+    },
+    "688": {
+        "class_name": "oscilloscope",
+        "category": "Electronic Objects"
+    },
+    "689": {
+        "class_name": "overskirt",
+        "category": null
+    },
+    "690": {
+        "class_name": "oxcart",
+        "category": null
+    },
+    "691": {
+        "class_name": "oxygen mask",
+        "category": null
+    },
+    "692": {
+        "class_name": "packet",
+        "category": "Recyclable Objects"
+    },
+    "693": {
+        "class_name": "paddle",
+        "category": null
+    },
+    "694": {
+        "class_name": "paddlewheel",
+        "category": null
+    },
+    "695": {
+        "class_name": "padlock",
+        "category": null
+    },
+    "696": {
+        "class_name": "paintbrush",
+        "category": null
+    },
+    "697": {
+        "class_name": "pajama",
+        "category": null
+    },
+    "698": {
+        "class_name": "palace",
+        "category": null
+    },
+    "699": {
+        "class_name": "panpipe",
+        "category": null
+    },
+    "700": {
+        "class_name": "paper towel",
+        "category": "Recyclable Objects"
+    },
+    "701": {
+        "class_name": "parachute",
+        "category": null
+    },
+    "702": {
+        "class_name": "parallel bars",
+        "category": null
+    },
+    "703": {
+        "class_name": "park bench",
+        "category": null
+    },
+    "704": {
+        "class_name": "parking meter",
+        "category": null
+    },
+    "705": {
+        "class_name": "passenger car",
+        "category": null
+    },
+    "706": {
+        "class_name": "patio",
+        "category": null
+    },
+    "707": {
+        "class_name": "pay-phone",
+        "category": "Electronic Objects"
+    },
+    "708": {
+        "class_name": "pedestal",
+        "category": null
+    },
+    "709": {
+        "class_name": "pencil box",
+        "category": "Recyclable Objects"
+    },
+    "710": {
+        "class_name": "pencil sharpener",
+        "category": null
+    },
+    "711": {
+        "class_name": "perfume",
+        "category": null
+    },
+    "712": {
+        "class_name": "Petri dish",
+        "category": null
+    },
+    "713": {
+        "class_name": "photocopier",
+        "category": null
+    },
+    "714": {
+        "class_name": "pick",
+        "category": null
+    },
+    "715": {
+        "class_name": "pickelhaube",
+        "category": null
+    },
+    "716": {
+        "class_name": "picket fence",
+        "category": null
+    },
+    "717": {
+        "class_name": "pickup",
+        "category": null
+    },
+    "718": {
+        "class_name": "pier",
+        "category": null
+    },
+    "719": {
+        "class_name": "piggy bank",
+        "category": null
+    },
+    "720": {
+        "class_name": "pill bottle",
+        "category": "Recyclable Objects"
+    },
+    "721": {
+        "class_name": "pillow",
+        "category": null
+    },
+    "722": {
+        "class_name": "ping-pong ball",
+        "category": null
+    },
+    "723": {
+        "class_name": "pinwheel",
+        "category": null
+    },
+    "724": {
+        "class_name": "pirate",
+        "category": null
+    },
+    "725": {
+        "class_name": "pitcher",
+        "category": null
+    },
+    "726": {
+        "class_name": "plane",
+        "category": null
+    },
+    "727": {
+        "class_name": "planetarium",
+        "category": null
+    },
+    "728": {
+        "class_name": "plastic bag",
+        "category": "Recyclable Objects"
+    },
+    "729": {
+        "class_name": "plate rack",
+        "category": null
+    },
+    "730": {
+        "class_name": "plow",
+        "category": null
+    },
+    "731": {
+        "class_name": "plunger",
+        "category": null
+    },
+    "732": {
+        "class_name": "Polaroid camera",
+        "category": "Electronic Objects"
+    },
+    "733": {
+        "class_name": "pole",
+        "category": null
+    },
+    "734": {
+        "class_name": "police van",
+        "category": null
+    },
+    "735": {
+        "class_name": "poncho",
+        "category": null
+    },
+    "736": {
+        "class_name": "pool table",
+        "category": null
+    },
+    "737": {
+        "class_name": "pop bottle",
+        "category": "Recyclable Objects"
+    },
+    "738": {
+        "class_name": "pot",
+        "category": null
+    },
+    "739": {
+        "class_name": "potter's wheel",
+        "category": null
+    },
+    "740": {
+        "class_name": "power drill",
+        "category": "Electronic Objects"
+    },
+    "741": {
+        "class_name": "prayer rug",
+        "category": null
+    },
+    "742": {
+        "class_name": "printer",
+        "category": "Electronic Objects"
+    },
+    "743": {
+        "class_name": "prison",
+        "category": null
+    },
+    "744": {
+        "class_name": "projectile",
+        "category": null
+    },
+    "745": {
+        "class_name": "projector",
+        "category": "Electronic Objects"
+    },
+    "746": {
+        "class_name": "puck",
+        "category": null
+    },
+    "747": {
+        "class_name": "punching bag",
+        "category": "Recyclable Objects"
+    },
+    "748": {
+        "class_name": "purse",
+        "category": null
+    },
+    "749": {
+        "class_name": "quill",
+        "category": null
+    },
+    "750": {
+        "class_name": "quilt",
+        "category": null
+    },
+    "751": {
+        "class_name": "racer",
+        "category": null
+    },
+    "752": {
+        "class_name": "racket",
+        "category": null
+    },
+    "753": {
+        "class_name": "radiator",
+        "category": null
+    },
+    "754": {
+        "class_name": "radio",
+        "category": "Electronic Objects"
+    },
+    "755": {
+        "class_name": "radio telescope",
+        "category": "Electronic Objects"
+    },
+    "756": {
+        "class_name": "rain barrel",
+        "category": "Recyclable Objects"
+    },
+    "757": {
+        "class_name": "recreational vehicle",
+        "category": null
+    },
+    "758": {
+        "class_name": "reel",
+        "category": null
+    },
+    "759": {
+        "class_name": "reflex camera",
+        "category": "Electronic Objects"
+    },
+    "760": {
+        "class_name": "refrigerator",
+        "category": null
+    },
+    "761": {
+        "class_name": "remote control",
+        "category": "Electronic Objects"
+    },
+    "762": {
+        "class_name": "restaurant",
+        "category": null
+    },
+    "763": {
+        "class_name": "revolver",
+        "category": null
+    },
+    "764": {
+        "class_name": "rifle",
+        "category": null
+    },
+    "765": {
+        "class_name": "rocking chair",
+        "category": null
+    },
+    "766": {
+        "class_name": "rotisserie",
+        "category": null
+    },
+    "767": {
+        "class_name": "rubber eraser",
+        "category": null
+    },
+    "768": {
+        "class_name": "rugby ball",
+        "category": null
+    },
+    "769": {
+        "class_name": "rule",
+        "category": null
+    },
+    "770": {
+        "class_name": "running shoe",
+        "category": null
+    },
+    "771": {
+        "class_name": "safe",
+        "category": null
+    },
+    "772": {
+        "class_name": "safety pin",
+        "category": null
+    },
+    "773": {
+        "class_name": "saltshaker",
+        "category": null
+    },
+    "774": {
+        "class_name": "sandal",
+        "category": null
+    },
+    "775": {
+        "class_name": "sarong",
+        "category": null
+    },
+    "776": {
+        "class_name": "sax",
+        "category": null
+    },
+    "777": {
+        "class_name": "scabbard",
+        "category": null
+    },
+    "778": {
+        "class_name": "scale",
+        "category": null
+    },
+    "779": {
+        "class_name": "school bus",
+        "category": null
+    },
+    "780": {
+        "class_name": "schooner",
+        "category": null
+    },
+    "781": {
+        "class_name": "scoreboard",
+        "category": null
+    },
+    "782": {
+        "class_name": "screen",
+        "category": "Electronic Objects"
+    },
+    "783": {
+        "class_name": "screw",
+        "category": null
+    },
+    "784": {
+        "class_name": "screwdriver",
+        "category": null
+    },
+    "785": {
+        "class_name": "seat belt",
+        "category": null
+    },
+    "786": {
+        "class_name": "sewing machine",
+        "category": null
+    },
+    "787": {
+        "class_name": "shield",
+        "category": null
+    },
+    "788": {
+        "class_name": "shoe shop",
+        "category": null
+    },
+    "789": {
+        "class_name": "shoji",
+        "category": null
+    },
+    "790": {
+        "class_name": "shopping basket",
+        "category": null
+    },
+    "791": {
+        "class_name": "shopping cart",
+        "category": null
+    },
+    "792": {
+        "class_name": "shovel",
+        "category": null
+    },
+    "793": {
+        "class_name": "shower cap",
+        "category": null
+    },
+    "794": {
+        "class_name": "shower curtain",
+        "category": null
+    },
+    "795": {
+        "class_name": "ski",
+        "category": null
+    },
+    "796": {
+        "class_name": "ski mask",
+        "category": null
+    },
+    "797": {
+        "class_name": "sleeping bag",
+        "category": "Recyclable Objects"
+    },
+    "798": {
+        "class_name": "slide rule",
+        "category": null
+    },
+    "799": {
+        "class_name": "sliding door",
+        "category": null
+    },
+    "800": {
+        "class_name": "slot",
+        "category": null
+    },
+    "801": {
+        "class_name": "snorkel",
+        "category": null
+    },
+    "802": {
+        "class_name": "snowmobile",
+        "category": null
+    },
+    "803": {
+        "class_name": "snowplow",
+        "category": null
+    },
+    "804": {
+        "class_name": "soap dispenser",
+        "category": null
+    },
+    "805": {
+        "class_name": "soccer ball",
+        "category": null
+    },
+    "806": {
+        "class_name": "sock",
+        "category": null
+    },
+    "807": {
+        "class_name": "solar dish",
+        "category": null
+    },
+    "808": {
+        "class_name": "sombrero",
+        "category": null
+    },
+    "809": {
+        "class_name": "soup bowl",
+        "category": null
+    },
+    "810": {
+        "class_name": "space bar",
+        "category": null
+    },
+    "811": {
+        "class_name": "space heater",
+        "category": "Electronic Objects"
+    },
+    "812": {
+        "class_name": "space shuttle",
+        "category": null
+    },
+    "813": {
+        "class_name": "spatula",
+        "category": null
+    },
+    "814": {
+        "class_name": "speedboat",
+        "category": null
+    },
+    "815": {
+        "class_name": "spider web",
+        "category": null
+    },
+    "816": {
+        "class_name": "spindle",
+        "category": null
+    },
+    "817": {
+        "class_name": "sports car",
+        "category": null
+    },
+    "818": {
+        "class_name": "spotlight",
+        "category": null
+    },
+    "819": {
+        "class_name": "stage",
+        "category": null
+    },
+    "820": {
+        "class_name": "steam locomotive",
+        "category": null
+    },
+    "821": {
+        "class_name": "steel arch bridge",
+        "category": null
+    },
+    "822": {
+        "class_name": "steel drum",
+        "category": null
+    },
+    "823": {
+        "class_name": "stethoscope",
+        "category": null
+    },
+    "824": {
+        "class_name": "stole",
+        "category": null
+    },
+    "825": {
+        "class_name": "stone wall",
+        "category": null
+    },
+    "826": {
+        "class_name": "stopwatch",
+        "category": null
+    },
+    "827": {
+        "class_name": "stove",
+        "category": null
+    },
+    "828": {
+        "class_name": "strainer",
+        "category": null
+    },
+    "829": {
+        "class_name": "streetcar",
+        "category": null
+    },
+    "830": {
+        "class_name": "stretcher",
+        "category": null
+    },
+    "831": {
+        "class_name": "studio couch",
+        "category": null
+    },
+    "832": {
+        "class_name": "stupa",
+        "category": null
+    },
+    "833": {
+        "class_name": "submarine",
+        "category": null
+    },
+    "834": {
+        "class_name": "suit",
+        "category": null
+    },
+    "835": {
+        "class_name": "sundial",
+        "category": null
+    },
+    "836": {
+        "class_name": "sunglass",
+        "category": null
+    },
+    "837": {
+        "class_name": "sunglasses",
+        "category": null
+    },
+    "838": {
+        "class_name": "sunscreen",
+        "category": "Electronic Objects"
+    },
+    "839": {
+        "class_name": "suspension bridge",
+        "category": null
+    },
+    "840": {
+        "class_name": "swab",
+        "category": null
+    },
+    "841": {
+        "class_name": "sweatshirt",
+        "category": null
+    },
+    "842": {
+        "class_name": "swimming trunks",
+        "category": null
+    },
+    "843": {
+        "class_name": "swing",
+        "category": null
+    },
+    "844": {
+        "class_name": "switch",
+        "category": null
+    },
+    "845": {
+        "class_name": "syringe",
+        "category": null
+    },
+    "846": {
+        "class_name": "table lamp",
+        "category": null
+    },
+    "847": {
+        "class_name": "tank",
+        "category": null
+    },
+    "848": {
+        "class_name": "tape player",
+        "category": null
+    },
+    "849": {
+        "class_name": "teapot",
+        "category": null
+    },
+    "850": {
+        "class_name": "teddy",
+        "category": null
+    },
+    "851": {
+        "class_name": "television",
+        "category": "Electronic Objects"
+    },
+    "852": {
+        "class_name": "tennis ball",
+        "category": null
+    },
+    "853": {
+        "class_name": "thatch",
+        "category": null
+    },
+    "854": {
+        "class_name": "theater curtain",
+        "category": null
+    },
+    "855": {
+        "class_name": "thimble",
+        "category": null
+    },
+    "856": {
+        "class_name": "thresher",
+        "category": null
+    },
+    "857": {
+        "class_name": "throne",
+        "category": null
+    },
+    "858": {
+        "class_name": "tile roof",
+        "category": null
+    },
+    "859": {
+        "class_name": "toaster",
+        "category": "Electronic Objects"
+    },
+    "860": {
+        "class_name": "tobacco shop",
+        "category": null
+    },
+    "861": {
+        "class_name": "toilet seat",
+        "category": null
+    },
+    "862": {
+        "class_name": "torch",
+        "category": null
+    },
+    "863": {
+        "class_name": "totem pole",
+        "category": null
+    },
+    "864": {
+        "class_name": "tow truck",
+        "category": null
+    },
+    "865": {
+        "class_name": "toyshop",
+        "category": null
+    },
+    "866": {
+        "class_name": "tractor",
+        "category": null
+    },
+    "867": {
+        "class_name": "trailer truck",
+        "category": null
+    },
+    "868": {
+        "class_name": "tray",
+        "category": null
+    },
+    "869": {
+        "class_name": "trench coat",
+        "category": null
+    },
+    "870": {
+        "class_name": "tricycle",
+        "category": null
+    },
+    "871": {
+        "class_name": "trimaran",
+        "category": null
+    },
+    "872": {
+        "class_name": "tripod",
+        "category": null
+    },
+    "873": {
+        "class_name": "triumphal arch",
+        "category": null
+    },
+    "874": {
+        "class_name": "trolleybus",
+        "category": null
+    },
+    "875": {
+        "class_name": "trombone",
+        "category": null
+    },
+    "876": {
+        "class_name": "tub",
+        "category": null
+    },
+    "877": {
+        "class_name": "turnstile",
+        "category": null
+    },
+    "878": {
+        "class_name": "typewriter keyboard",
+        "category": "Electronic Objects"
+    },
+    "879": {
+        "class_name": "umbrella",
+        "category": null
+    },
+    "880": {
+        "class_name": "unicycle",
+        "category": null
+    },
+    "881": {
+        "class_name": "upright",
+        "category": null
+    },
+    "882": {
+        "class_name": "vacuum",
+        "category": "Electronic Objects"
+    },
+    "883": {
+        "class_name": "vase",
+        "category": null
+    },
+    "884": {
+        "class_name": "vault",
+        "category": null
+    },
+    "885": {
+        "class_name": "velvet",
+        "category": null
+    },
+    "886": {
+        "class_name": "vending machine",
+        "category": null
+    },
+    "887": {
+        "class_name": "vestment",
+        "category": null
+    },
+    "888": {
+        "class_name": "viaduct",
+        "category": null
+    },
+    "889": {
+        "class_name": "violin",
+        "category": null
+    },
+    "890": {
+        "class_name": "volleyball",
+        "category": null
+    },
+    "891": {
+        "class_name": "waffle iron",
+        "category": null
+    },
+    "892": {
+        "class_name": "wall clock",
+        "category": null
+    },
+    "893": {
+        "class_name": "wallet",
+        "category": null
+    },
+    "894": {
+        "class_name": "wardrobe",
+        "category": null
+    },
+    "895": {
+        "class_name": "warplane",
+        "category": null
+    },
+    "896": {
+        "class_name": "washbasin",
+        "category": null
+    },
+    "897": {
+        "class_name": "washer",
+        "category": "Electronic Objects"
+    },
+    "898": {
+        "class_name": "water bottle",
+        "category": "Recyclable Objects"
+    },
+    "899": {
+        "class_name": "water jug",
+        "category": null
+    },
+    "900": {
+        "class_name": "water tower",
+        "category": null
+    },
+    "901": {
+        "class_name": "whiskey jug",
+        "category": null
+    },
+    "902": {
+        "class_name": "whistle",
+        "category": null
+    },
+    "903": {
+        "class_name": "wig",
+        "category": null
+    },
+    "904": {
+        "class_name": "window screen",
+        "category": "Electronic Objects"
+    },
+    "905": {
+        "class_name": "window shade",
+        "category": null
+    },
+    "906": {
+        "class_name": "Windsor tie",
+        "category": null
+    },
+    "907": {
+        "class_name": "wine bottle",
+        "category": "Recyclable Objects"
+    },
+    "908": {
+        "class_name": "wing",
+        "category": null
+    },
+    "909": {
+        "class_name": "wok",
+        "category": null
+    },
+    "910": {
+        "class_name": "wooden spoon",
+        "category": null
+    },
+    "911": {
+        "class_name": "wool",
+        "category": null
+    },
+    "912": {
+        "class_name": "worm fence",
+        "category": null
+    },
+    "913": {
+        "class_name": "wreck",
+        "category": null
+    },
+    "914": {
+        "class_name": "yawl",
+        "category": null
+    },
+    "915": {
+        "class_name": "yurt",
+        "category": null
+    },
+    "916": {
+        "class_name": "web site",
+        "category": null
+    },
+    "917": {
+        "class_name": "comic book",
+        "category": "Recyclable Objects"
+    },
+    "918": {
+        "class_name": "crossword puzzle",
+        "category": null
+    },
+    "919": {
+        "class_name": "street sign",
+        "category": null
+    },
+    "920": {
+        "class_name": "traffic light",
+        "category": null
+    },
+    "921": {
+        "class_name": "book jacket",
+        "category": "Recyclable Objects"
+    },
+    "922": {
+        "class_name": "menu",
+        "category": null
+    },
+    "923": {
+        "class_name": "plate",
+        "category": null
+    },
+    "924": {
+        "class_name": "guacamole",
+        "category": null
+    },
+    "925": {
+        "class_name": "consomme",
+        "category": null
+    },
+    "926": {
+        "class_name": "hot pot",
+        "category": null
+    },
+    "927": {
+        "class_name": "trifle",
+        "category": null
+    },
+    "928": {
+        "class_name": "ice cream",
+        "category": null
+    },
+    "929": {
+        "class_name": "ice lolly",
+        "category": null
+    },
+    "930": {
+        "class_name": "French loaf",
+        "category": null
+    },
+    "931": {
+        "class_name": "bagel",
+        "category": "Recyclable Objects"
+    },
+    "932": {
+        "class_name": "pretzel",
+        "category": null
+    },
+    "933": {
+        "class_name": "cheeseburger",
+        "category": null
+    },
+    "934": {
+        "class_name": "hotdog",
+        "category": null
+    },
+    "935": {
+        "class_name": "mashed potato",
+        "category": null
+    },
+    "936": {
+        "class_name": "head cabbage",
+        "category": "Recyclable Objects"
+    },
+    "937": {
+        "class_name": "broccoli",
+        "category": "Organic Objects"
+    },
+    "938": {
+        "class_name": "cauliflower",
+        "category": "Organic Objects"
+    },
+    "939": {
+        "class_name": "zucchini",
+        "category": "Organic Objects"
+    },
+    "940": {
+        "class_name": "spaghetti squash",
+        "category": "Organic Objects"
+    },
+    "941": {
+        "class_name": "acorn squash",
+        "category": "Organic Objects"
+    },
+    "942": {
+        "class_name": "butternut squash",
+        "category": "Organic Objects"
+    },
+    "943": {
+        "class_name": "cucumber",
+        "category": "Organic Objects"
+    },
+    "944": {
+        "class_name": "artichoke",
+        "category": "Organic Objects"
+    },
+    "945": {
+        "class_name": "bell pepper",
+        "category": "Organic Objects"
+    },
+    "946": {
+        "class_name": "cardoon",
+        "category": null
+    },
+    "947": {
+        "class_name": "mushroom",
+        "category": "Organic Objects"
+    },
+    "948": {
+        "class_name": "Granny Smith",
+        "category": null
+    },
+    "949": {
+        "class_name": "strawberry",
+        "category": "Organic Objects"
+    },
+    "950": {
+        "class_name": "orange",
+        "category": "Organic Objects"
+    },
+    "951": {
+        "class_name": "lemon",
+        "category": "Organic Objects"
+    },
+    "952": {
+        "class_name": "fig",
+        "category": "Organic Objects"
+    },
+    "953": {
+        "class_name": "pineapple",
+        "category": "Organic Objects"
+    },
+    "954": {
+        "class_name": "banana",
+        "category": "Organic Objects"
+    },
+    "955": {
+        "class_name": "jackfruit",
+        "category": "Organic Objects"
+    },
+    "956": {
+        "class_name": "custard apple",
+        "category": "Organic Objects"
+    },
+    "957": {
+        "class_name": "pomegranate",
+        "category": "Organic Objects"
+    },
+    "958": {
+        "class_name": "hay",
+        "category": null
+    },
+    "959": {
+        "class_name": "carbonara",
+        "category": null
+    },
+    "960": {
+        "class_name": "chocolate sauce",
+        "category": null
+    },
+    "961": {
+        "class_name": "dough",
+        "category": null
+    },
+    "962": {
+        "class_name": "meat loaf",
+        "category": null
+    },
+    "963": {
+        "class_name": "pizza",
+        "category": null
+    },
+    "964": {
+        "class_name": "potpie",
+        "category": null
+    },
+    "965": {
+        "class_name": "burrito",
+        "category": null
+    },
+    "966": {
+        "class_name": "red wine",
+        "category": null
+    },
+    "967": {
+        "class_name": "espresso",
+        "category": null
+    },
+    "968": {
+        "class_name": "cup",
+        "category": null
+    },
+    "969": {
+        "class_name": "eggnog",
+        "category": null
+    },
+    "970": {
+        "class_name": "alp",
+        "category": null
+    },
+    "971": {
+        "class_name": "bubble",
+        "category": null
+    },
+    "972": {
+        "class_name": "cliff",
+        "category": null
+    },
+    "973": {
+        "class_name": "coral reef",
+        "category": null
+    },
+    "974": {
+        "class_name": "geyser",
+        "category": null
+    },
+    "975": {
+        "class_name": "lakeside",
+        "category": null
+    },
+    "976": {
+        "class_name": "promontory",
+        "category": null
+    },
+    "977": {
+        "class_name": "sandbar",
+        "category": null
+    },
+    "978": {
+        "class_name": "seashore",
+        "category": null
+    },
+    "979": {
+        "class_name": "valley",
+        "category": null
+    },
+    "980": {
+        "class_name": "volcano",
+        "category": "Recyclable Objects"
+    },
+    "981": {
+        "class_name": "ballplayer",
+        "category": null
+    },
+    "982": {
+        "class_name": "groom",
+        "category": null
+    },
+    "983": {
+        "class_name": "scuba diver",
+        "category": null
+    },
+    "984": {
+        "class_name": "rapeseed",
+        "category": null
+    },
+    "985": {
+        "class_name": "daisy",
+        "category": "Organic Objects"
+    },
+    "986": {
+        "class_name": "yellow lady's slipper",
+        "category": null
+    },
+    "987": {
+        "class_name": "corn",
+        "category": "Organic Objects"
+    },
+    "988": {
+        "class_name": "acorn",
+        "category": "Organic Objects"
+    },
+    "989": {
+        "class_name": "hip",
+        "category": "Organic Objects"
+    },
+    "990": {
+        "class_name": "buckeye",
+        "category": "Organic Objects"
+    },
+    "991": {
+        "class_name": "coral fungus",
+        "category": null
+    },
+    "992": {
+        "class_name": "agaric",
+        "category": null
+    },
+    "993": {
+        "class_name": "gyromitra",
+        "category": null
+    },
+    "994": {
+        "class_name": "stinkhorn",
+        "category": "Recyclable Objects"
+    },
+    "995": {
+        "class_name": "earthstar",
+        "category": null
+    },
+    "996": {
+        "class_name": "hen-of-the-woods",
+        "category": null
+    },
+    "997": {
+        "class_name": "bolete",
+        "category": null
+    },
+    "998": {
+        "class_name": "ear",
+        "category": null
+    },
+    "999": {
+        "class_name": "toilet tissue",
+        "category": null
+    }
+}
