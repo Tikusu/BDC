@@ -1,4 +1,4 @@
-# Image Category Anomaly Sorter
+# Image Sorter
 
 ## Setup
 ```
@@ -6,12 +6,12 @@ pip install -r requirements.txt
 ```
 
 ## How it works
-`build_mapping.py` already generated `category_mapping.json`, mapping each of the 1000 ImageNet classes EfficientNet can predict to one of: `Recyclable Objects`, `Electronic Objects`, `Organic Objects`, or `null` (unrelated/unmapped class). Edit the `RULES` dict in `build_mapping.py` and re-run it to adjust keyword coverage, add categories, or reuse for a totally different category set.
+`classifier_clip.py` uses CLIP (open_clip) for zero-shot classification — no training or class-mapping file needed. Each category in `prompts.json` has a list of text prompts describing it; the image is matched against whichever category's prompts it's most similar to. Edit `prompts.json` to add/adjust prompts per category or add new categories.
 
 ## Usage
 Process one source category folder at a time:
 ```
-python3 sort_images.py \
+python3 sort_images_clip.py \
   --input-dir /path/to/RecyclableObjects \
   --category "Recyclable Objects" \
   --output-dir /path/to/sorted_result \
@@ -35,11 +35,10 @@ Each `anomaly/<category>/` holds images from that source folder whose predicted 
 - `--limit N` — cap images processed per run (safety net)
 - `--copy` — copy instead of move (default is move; use `--copy` while testing)
 - `--min-confidence 0.X` — additionally flag low-confidence predictions as anomaly even if the category matches
-- `--model efficientnet-b4` — swap model size (b0 default, faster; b4+ more accurate, slower on CPU)
+- `--prompts-file` — path to prompts JSON (default: `prompts.json`)
+- `--model` — CLIP model architecture (default: `ViT-B-32`)
+- `--pretrained` — CLIP pretrained weights tag (default: `laion2b_s34b_b79k`)
 
 ## Reusing for other categories
-1. Add new category + keyword list to `RULES` in `build_mapping.py`, re-run it.
-2. Call `sort_images.py --category "<NewCategory>"` pointing at the matching folder.
-
-## Other Info
-- nope
+1. Add a new category key + prompt list to `prompts.json`.
+2. Call `sort_images_clip.py --category "<NewCategory>"` pointing at the matching folder.
