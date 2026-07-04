@@ -18,3 +18,20 @@
 /preprocess/image_output/augmented_images/*
 /preprocess/image_output/anomaly/*
 /preprocess/image_output/non_anomaly/*
+
+# Duplicates
+/TrainImages/duplicates/exact/0_Recyclable/*
+/TrainImages/duplicates/exact/1_Electronic/*
+/TrainImages/duplicates/exact/2_Organic/*
+
+/TrainImages/duplicates/near/0_Recyclable/*
+/TrainImages/duplicates/near/1_Electronic/*
+/TrainImages/duplicates/near/2_Organic/*
+
+# post-anomaly-audit
+/preprocess/post-anomaly-audit/corrupted_report.json
+/preprocess/post-anomaly-audit/duplicates_report.json
+/preprocess/post-anomaly-audit/class_distribution.png
+
+# all zip
+*.zip
