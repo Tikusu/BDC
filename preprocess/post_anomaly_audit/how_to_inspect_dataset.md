@@ -1,6 +1,6 @@
 # Post-Anomaly Audit: Training Data Distribution and Image Corruption Check
 
-We have implemented a subfolder named `post-anomaly-audit` inside `preprocess/` containing basic utilities to audit the training dataset (`TrainImages`) before splitting it into train/val.
+We have implemented a subfolder named `post_anomaly_audit` inside `preprocess/` containing basic utilities to audit the training dataset (`TrainImages`) before splitting it into train/val.
 
 ## Scripts
 
@@ -16,7 +16,7 @@ The dataset inspection script scans all subdirectories of `TrainImages` and coun
 ### Usage
 
 ```powershell
-.\venv\Scripts\python preprocess/post-anomaly-audit/inspect_dataset.py
+.\venv\Scripts\python preprocess/post_anomaly_audit/inspect_dataset.py
   --data-dir <path_to_dataset>
   --output-plot <path_to_plot>
 ```
@@ -56,7 +56,7 @@ The corruption check script uses multi-threaded verificaetion (`ThreadPoolExecut
 ### Usage
 
 ```powershell
-.\venv\Scripts\python preprocess/post-anomaly-audit/check_corrupted_images.py
+.\venv\Scripts\python preprocess/post_anomaly_audit/check_corrupted_images.py
   --data-dir <path_to_dataset>
   --output-report <path_to_report>
   --quarantine-dir <path_to_quarantine>
