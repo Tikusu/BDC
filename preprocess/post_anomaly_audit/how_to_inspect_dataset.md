@@ -15,8 +15,8 @@ The dataset inspection script scans all subdirectories of `TrainImages` and coun
 
 ### Usage
 
-```powershell
-.\venv\Scripts\python preprocess/post_anomaly_audit/inspect_dataset.py
+```bash
+python3 preprocess/post_anomaly_audit/inspect_dataset.py
   --data-dir <path_to_dataset>
   --output-plot <path_to_plot>
 ```
@@ -55,8 +55,8 @@ The corruption check script uses multi-threaded verificaetion (`ThreadPoolExecut
 
 ### Usage
 
-```powershell
-.\venv\Scripts\python preprocess/post_anomaly_audit/check_corrupted_images.py
+```bash
+python3 preprocess/post_anomaly_audit/check_corrupted_images.py
   --data-dir <path_to_dataset>
   --output-report <path_to_report>
   --quarantine-dir <path_to_quarantine>
