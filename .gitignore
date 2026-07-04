@@ -1,7 +1,9 @@
+# test images
 /TestImages/*.jpg
 /TestImages/*.jpeg
 /TestImages/*.png
 
+# Trainingg images
 /TrainImages/0_Recyclable/*.jpg
 /TrainImages/0_Recyclable/*.jpeg
 /TrainImages/0_Recyclable/*.png
@@ -25,12 +27,11 @@
 /TrainImages/duplicates/near/1_Electronic/*
 /TrainImages/duplicates/near/2_Organic/*
 
-/venv
-/preprocess/image_output/augmented_images/*
-/preprocess/image_output/anomaly/*
-/preprocess/image_output/non_anomaly/*
+# image outputs
 
 # post-anomaly-audit generated files
 /preprocess/post-anomaly-audit/corrupted_report.json
 /preprocess/post-anomaly-audit/duplicates_report.json
 /preprocess/post-anomaly-audit/class_distribution.png
+
+/venv
