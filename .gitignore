@@ -19,7 +19,6 @@
 # image outputs
 
 
-/preprocess/image_output/anomaly/*
 /preprocess/image_output/non_anomaly/*
 
 /venv
