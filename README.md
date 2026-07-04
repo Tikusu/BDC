@@ -31,6 +31,8 @@ cd path\to\project
 ```
 </details>
 
+> note : each script should be executed from the root directory
+
 ### Augment images
 Batch rotate/blur/adjust brightness-contrast-saturation to generate more training data.
 ```bash
