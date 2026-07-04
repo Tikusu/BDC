@@ -98,7 +98,7 @@ def main():
     total_to_move = summary.get("total_to_move", 0)
 
     if total_to_move == 0:
-        print("Tidak ada file duplikat yang perlu dipindahkan berdasarkan laporan.")
+        print("No duplicate files to be moved according to the report.")
         sys.exit(0)
 
     mode_label = "[DRY-RUN] " if args.dry_run else ""
