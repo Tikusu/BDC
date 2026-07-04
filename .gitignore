@@ -14,10 +14,7 @@
 /TrainImages/2_Organic/*.jpeg
 /TrainImages/2_Organic/*.png
 
-/venv
-/preprocess/image_output/augmented_images/*
-/preprocess/image_output/anomaly/*
-/preprocess/image_output/non_anomaly/*
+/TrainImages/*.zip
 
 # Duplicates
 /TrainImages/duplicates/exact/0_Recyclable/*
@@ -28,10 +25,12 @@
 /TrainImages/duplicates/near/1_Electronic/*
 /TrainImages/duplicates/near/2_Organic/*
 
+/venv
+/preprocess/image_output/augmented_images/*
+/preprocess/image_output/anomaly/*
+/preprocess/image_output/non_anomaly/*
+
 # post-anomaly-audit
 /preprocess/post-anomaly-audit/corrupted_report.json
 /preprocess/post-anomaly-audit/duplicates_report.json
 /preprocess/post-anomaly-audit/class_distribution.png
-
-# all zip
-*.zip
