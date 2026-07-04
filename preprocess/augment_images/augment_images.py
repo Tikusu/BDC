@@ -1,6 +1,8 @@
 import argparse, os, glob, random
-from PIL import Image, ImageFilter, ImageEnhance
+from PIL import Image, ImageFilter, ImageEnhanceimport os
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_OUTPUT = os.path.join(SCRIPT_DIR, "..", "image_output", "augmented_images")
 VALID_EXT = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
 
 def collect_inputs(paths):
@@ -43,7 +45,7 @@ def process_image(img, args):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("inputs", nargs="+", help="image files and/or folders")
-    p.add_argument("-o", "--output", default="preprocess/image_output/augmented_images")
+    p.add_argument("-o", "--output", default=DEFAULT_OUTPUT)
     p.add_argument("--rotate", type=float, default=None, help="degrees; max angle if --random")
     p.add_argument("--blur", type=float, default=None, help="gaussian radius; max if --random")
     p.add_argument("--brightness", type=float, default=None, help="factor (1.0=none); +/- range if --random")
