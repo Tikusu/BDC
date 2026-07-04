@@ -30,7 +30,7 @@
 /preprocess/image_output/anomaly/*
 /preprocess/image_output/non_anomaly/*
 
-# post-anomaly-audit
+# post-anomaly-audit generated files
 /preprocess/post-anomaly-audit/corrupted_report.json
 /preprocess/post-anomaly-audit/duplicates_report.json
 /preprocess/post-anomaly-audit/class_distribution.png
