@@ -1,6 +1,6 @@
 # Duplicate & Near-Duplicate Detection
 
-Added two scripts in `preprocess/post-anomaly-audit/`:
+Added two scripts in `preprocess/post_anomaly_audit/`:
 
 | Script                                                 | Purpose                                                                              |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
@@ -13,8 +13,8 @@ Added two scripts in `preprocess/post-anomaly-audit/`:
 
 ### Step 1: Duplicate Detection
 
-```powershell
-.\venv\Scripts\python preprocess/post-anomaly-audit/find_duplicates.py
+```bash
+python3 preprocess/post_anomaly_audit/find_duplicates.py
   --data-dir <path_to_dataset>
   --output-report <path_to_report>
   --threshold <hamming_distance>
@@ -29,8 +29,8 @@ Added two scripts in `preprocess/post-anomaly-audit/`:
 
 ### Step 2: Preview (dry-run, SAFE – no files will be moved)
 
-```powershell
-.\venv\Scripts\python preprocess/post-anomaly-audit/quarantine_duplicates.py
+```bash
+python3 preprocess/post_anomaly_audit/quarantine_duplicates.py
   --report <path_to_json_report>
   --data-dir <path_to_dataset>
   --quarantine-dir <path_to_quarantine_folder>
@@ -41,8 +41,8 @@ Added two scripts in `preprocess/post-anomaly-audit/`:
 
 Run this to actually move the detected dupliates
 
-```powershell
-.\venv\Scripts\python preprocess/post-anomaly-audit/quarantine_duplicates.py
+```bash
+python3 preprocess/post_anomaly_audit/quarantine_duplicates.py
   --report <path_to_json_report>
   --data-dir <path_to_dataset>
   --quarantine-dir <path_to_quarantine_folder>
