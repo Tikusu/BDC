@@ -2,7 +2,7 @@
 
 ## Setup
 ```
-pip install -r requirements.txt
+pip install -r preprocess/requirements.txt
 ```
 
 ## How it works
@@ -10,8 +10,8 @@ pip install -r requirements.txt
 
 ## Usage
 Process one source category folder at a time:
-```
-python3 sort_images_clip.py \
+```bash
+python3 preprocess/sort_images/sort_images_clip.py \
   --input-dir /path/to/RecyclableObjects \
   --category "Recyclable Objects" \
   --output-dir /path/to/sorted_result \
@@ -41,4 +41,4 @@ Each `anomaly/<category>/` holds images from that source folder whose predicted 
 
 ## Reusing for other categories
 1. Add a new category key + prompt list to `prompts.json`.
-2. Call `sort_images_clip.py --category "<NewCategory>"` pointing at the matching folder.
+2. Call `python3 preprocess/sort_images/sort_images_clip.py --category "<NewCategory>"` pointing at the matching folder.
