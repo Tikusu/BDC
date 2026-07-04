@@ -3,4 +3,4 @@
 *.webmp
 *.mp4
 *.jpeg
-*.zip
+*.zip filter=lfs diff=lfs merge=lfs -text
