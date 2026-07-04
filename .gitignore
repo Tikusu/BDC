@@ -1,7 +1,9 @@
+# test images
 /TestImages/*.jpg
 /TestImages/*.jpeg
 /TestImages/*.png
 
+# Trainingg images
 /TrainImages/0_Recyclable/*.jpg
 /TrainImages/0_Recyclable/*.jpeg
 /TrainImages/0_Recyclable/*.png
@@ -14,7 +16,10 @@
 /TrainImages/2_Organic/*.jpeg
 /TrainImages/2_Organic/*.png
 
-/venv
+# image outputs
 /preprocess/image_output/augmented_images/*
+
 /preprocess/image_output/anomaly/*
 /preprocess/image_output/non_anomaly/*
+
+/venv
