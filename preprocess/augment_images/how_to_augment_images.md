@@ -4,7 +4,7 @@ Batch-processes images (rotate, blur, brightness/contrast/saturation) for ML tra
 
 ## Requirements
 ```
-pip install Pillow
+pip install -r preprocess/requirements.txt
 ```
 
 ## Usage
@@ -29,17 +29,17 @@ python augment_images.py <files-or-folders> -o <output_dir> [options]
 ## Examples
 Single image, fixed transforms:
 ```
-python3 preprocess/augment_images.py photo.jpg --rotate 15 --blur 2
+python3 preprocess/augment_images/augment_images.py photo.jpg --rotate 15 --blur 2
 ```
 
 Folder, randomized augmentation, 3 variants each, capped resolution:
 ```
-python3 preprocess/augment_images.py /path/to/folder --brightness 0.2 --contrast 0.3 --saturation 0.3 --random --copies 3 --max-dim 1024
+python3 preprocess/augment_images/augment_images.py /path/to/folder --brightness 0.2 --contrast 0.3 --saturation 0.3 --random --copies 3 --max-dim 1024
 ```
 
 Process only the first 50 files in a folder:
 ```
-python3 preprocess/augment_images.py /path/to/folder --rotate 10 --limit 50
+python3 preprocess/augment_images/augment_images.py /path/to/folder --rotate 10 --limit 50
 ```
 
 ## Notes

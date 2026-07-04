@@ -31,19 +31,21 @@ cd path\to\project
 ```
 </details>
 
+> note : each script should be executed from the root directory
+
 ### Augment images
 Batch rotate/blur/adjust brightness-contrast-saturation to generate more training data.
 ```bash
-python3 preprocess/augment_images.py <files-or-folders> -o <output_dir> [--rotate DEG] [--blur R] [--random] [--copies N]
+python3 preprocess/augment_images/augment_images.py <files-or-folders> -o <output_dir> [--rotate DEG] [--blur R] [--random] [--copies N]
 ```
-Full guide: [preprocess/how_to_augment_images.md](preprocess/how_to_augment_images.md)
+Full guide: [preprocess/augment_images/how_to_augment_images.md](preprocess/augment_images/how_to_augment_images.md)
 
 ### Sort images
 Classifies images with EfficientNet and flags ones that don't match their expected category (Recyclable / Electronic / Organic) as anomalies.
 ```bash
-python3 preprocess/sort_images.py --input-dir <src> --category "<Category>" --output-dir <dest> --limit 500
+python3 preprocess/sort_images/sort_images.py --input-dir <src> --category "<Category>" --output-dir <dest> --limit 500
 ```
-Full guide: [preprocess/how_to_sort_images.md](preprocess/how_to_sort_images.md)
+Full guide: [preprocess/sort_images/how_to_sort_images.md](preprocess/sort_images/how_to_sort_images.md)
 
 ### Post-anomaly audit
 Scripts in [`preprocess/post_anomaly_audit/`](preprocess/post_anomaly_audit) to inspect/clean `TrainImages` before splitting into train/val.
