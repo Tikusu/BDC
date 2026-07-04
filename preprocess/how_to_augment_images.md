@@ -15,7 +15,7 @@ python augment_images.py <files-or-folders> -o <output_dir> [options]
 ## Options
 | Flag | Description |
 |---|---|
-| `-o, --output` | Output folder (default: `augmented`) |
+| `-o, --output` | Output folder (default: `preprocess/image_output/augmented_images`) |
 | `--rotate DEG` | Rotation angle in degrees |
 | `--blur RADIUS` | Gaussian blur radius |
 | `--brightness F` | Brightness factor (1.0 = unchanged) |
@@ -42,7 +42,7 @@ Process only the first 50 files in a folder:
 python3 preprocess/augment_images.py /path/to/folder --rotate 10 --limit 50
 ```
 
-## Notes | VLO
+## Notes
 - Supported input formats: jpg, jpeg, png, bmp, webp
 - Outputs keep the original file extension
 - `--random` ranges: `--rotate 15` → random angle between -15 and 15; `--brightness 0.2` → random factor between 0.8 and 1.2
