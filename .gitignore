@@ -14,6 +14,8 @@
 /TrainImages/2_Organic/*.jpeg
 /TrainImages/2_Organic/*.png
 
+/TrainImages/*.zip
+
 /venv
 /preprocess/image_output/augmented_images/*
 /preprocess/image_output/anomaly/*
