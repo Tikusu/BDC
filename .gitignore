@@ -35,3 +35,7 @@
 /preprocess/post_anomaly_audit/class_distribution.png
 
 /venv
+
+# data-splitting
+/TrainImagesSplit/train/*
+/TrainImagesSplit/val/*
