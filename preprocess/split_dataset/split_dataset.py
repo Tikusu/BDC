@@ -11,8 +11,8 @@ IGNORE_DIRS = {"duplicates", "train", "val", "test"}
 def main():
     # Resolve default paths relative to this script
     script_dir = Path(__file__).resolve().parent
-    default_data_dir = script_dir.parent / "TrainImages"
-    default_output_dir = script_dir.parent / "TrainImagesSplit"
+    default_data_dir = script_dir.parent.parent / "TrainImages"
+    default_output_dir = script_dir.parent.parent / "TrainImagesSplit"
 
     ap = argparse.ArgumentParser(
         description="Stratified train/val split for class-wise image datasets."
