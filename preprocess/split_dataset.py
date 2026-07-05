@@ -20,12 +20,12 @@ def main():
     ap.add_argument(
         "--data-dir",
         default=str(default_data_dir),
-        help="Path to the source dataset directory (e.g., TrainImages)"
+        help="Path to the source dataset directory (default: ../TrainImages)"
     )
     ap.add_argument(
         "--output-dir",
         default=str(default_output_dir),
-        help="Path to output split dataset (creates train/ and val/ subdirectories)"
+        help="Path to output split dataset (creates train/ and val/ subdirectories) (default: ../TrainImagesSplit)"
     )
     ap.add_argument(
         "--val-ratio",
