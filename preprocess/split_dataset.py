@@ -30,8 +30,8 @@ def main():
     ap.add_argument(
         "--val-ratio",
         type=float,
-        default=0.2,
-        help="Proportion of the dataset to include in the validation split (default: 0.2)"
+        default=0.15,
+        help="Proportion of the dataset to include in the validation split (default: 0.15)"
     )
     ap.add_argument(
         "--seed",
