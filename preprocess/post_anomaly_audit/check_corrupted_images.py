@@ -14,11 +14,11 @@ def verify_single_image(img_path, data_dir):
     Returns None if healthy, or a dict with corruption details if invalid.
     """
     try:
-        # 1. Try to open the file to verify the header/format
+        # Try to open the file to verify the header/format
         with Image.open(img_path) as img:
             img.verify()
             
-        # 2. img.verify() closes the file. We need to reopen to load the image data (decode pixels)
+        # img.verify() closes the file. We need to reopen to load the image data (decode pixels)
         with Image.open(img_path) as img:
             img.load()
             
