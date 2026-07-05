@@ -20,29 +20,35 @@ def main():
     ap.add_argument(
         "--data-dir",
         default=str(default_data_dir),
+        help="Path to the source dataset directory (e.g., TrainImages)"
     )
     ap.add_argument(
         "--output-dir",
         default=str(default_output_dir),
+        help="Path to output split dataset (creates train/ and val/ subdirectories)"
     )
     ap.add_argument(
         "--val-ratio",
         type=float,
         default=0.2,
+        help="Proportion of the dataset to include in the validation split (default: 0.2)"
     )
     ap.add_argument(
         "--seed",
         type=int,
         default=729,
+        help="Random seed for reproducibility (default: 729)"
     )
     ap.add_argument(
         "--action",
         choices=["copy", "move"],
         default="copy",
+        help="Action to perform on images: 'copy' or 'move' (default: copy)"
     )
     ap.add_argument(
         "--dry-run",
         action="store_true",
+        help="Perform a trial run without writing, copying, or moving"
     )
     args = ap.parse_args()
 
