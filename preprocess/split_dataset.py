@@ -41,9 +41,9 @@ def main():
     )
     ap.add_argument(
         "--action",
-        choices=["copy", "move"],
+        choices=["copy", "move", "hardlink"],
         default="copy",
-        help="Action to perform on images: 'copy' or 'move' (default: copy)"
+        help="Action to perform on images: 'copy' or 'move' or 'hardlink' (default: copy)"
     )
     ap.add_argument(
         "--dry-run",
@@ -178,6 +178,12 @@ def main():
             shutil.copy2(src_path, dest_path)
         elif args.action == "move":
             shutil.move(str(src_path), str(dest_path))
+        elif args.action == "hardlink":
+            # On Windows, os.link requires appropriate permissions, but works on same drive.
+            # Remove target if it already exists to overwrite
+            if dest_path.exists():
+                dest_path.unlink()
+            os.link(src_path, dest_path)
 
     # Flatten plan for progress tracking
     flattened_tasks = []
