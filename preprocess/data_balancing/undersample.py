@@ -5,6 +5,7 @@ from pathlib import Path
 import json
 
 from tqdm import tqdm
+from PIL import Image
 
 # import from utils.py
 import utils as _util
