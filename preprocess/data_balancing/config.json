@@ -1,0 +1,8 @@
+{
+  "oversample": {
+    "1_Electronic": 8000
+  },
+  "undersample": {
+    "2_Organic": 8000
+  }
+}
