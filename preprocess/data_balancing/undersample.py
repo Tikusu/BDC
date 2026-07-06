@@ -9,6 +9,7 @@ from tqdm import tqdm
 # import from utils.py
 import utils as _util
 from utils import collect_images
+from utils import _cuda_available
 
 def _extract_features(files: list[Path], device: str) -> "np.ndarray":
     """Extract L2-normalised embeddings using EfficientNet-B0 (global avg pool)."""

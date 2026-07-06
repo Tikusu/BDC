@@ -13,3 +13,9 @@ def collect_images(class_dir: Path) -> list[Path]:
         if f.is_file() and f.suffix.lower() in VALID_EXT
     )
 
+def _cuda_available() -> bool:
+    try:
+        import torch
+        return torch.cuda.is_available()
+    except ImportError:
+        return False
