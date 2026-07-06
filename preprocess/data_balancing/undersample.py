@@ -82,8 +82,10 @@ def undersample_class(
         labels = kmeans.fit_predict(embeddings)
         centroids = kmeans.cluster_centers_
 
-        # For each cluster, pick the image closest to its centroid
-        selected_indices = []
+        # Select the closest image to centroid for each cluster
+        selected_indices = set()
+        backfill_candidates = []  # list of tuples: (rank, distance, index)
+
         for k in range(target):
             mask = labels == k
             if not mask.any():
@@ -91,9 +93,28 @@ def undersample_class(
             cluster_idxs = np.where(mask)[0]
             cluster_embs = embeddings[cluster_idxs]
             dists = np.linalg.norm(cluster_embs - centroids[k], axis=1)
-            selected_indices.append(int(cluster_idxs[np.argmin(dists)]))
 
-        selected_files = [src_files[i] for i in selected_indices]
+            # Sort cluster members by distance to centroid (ascending)
+            sorted_local_indices = np.argsort(dists)
+            sorted_global_indices = [int(cluster_idxs[i]) for i in sorted_local_indices]
+            sorted_dists = [float(dists[i]) for i in sorted_local_indices]
+
+            # Primary pick: closest image in the cluster
+            selected_indices.add(sorted_global_indices[0])
+
+            # Backfill candidates: subsequent closest images
+            for rank, (idx, d) in enumerate(zip(sorted_global_indices[1:], sorted_dists[1:]), start=1):
+                backfill_candidates.append((rank, d, idx))
+
+        # Fill remaining slots up to target using backfill candidates
+        needed = target - len(selected_indices)
+        if needed > 0 and backfill_candidates:
+            # Sort candidates by rank (prefer 2nd closest, then 3rd, etc.) then by distance
+            backfill_candidates.sort(key=lambda x: (x[0], x[1]))
+            for i in range(min(needed, len(backfill_candidates))):
+                selected_indices.add(backfill_candidates[i][2])
+
+        selected_files = [src_files[i] for i in sorted(selected_indices)]
 
         pbar = tqdm(selected_files, desc=f"  Copying → {dest_dir.name}", unit="img", leave=False)
         for src in pbar:
