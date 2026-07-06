@@ -33,7 +33,7 @@ def main() -> None:
     ap.add_argument(
         "--input-dir",
         default=str(_util._DEFAULT_INPUT),
-        help=f"Path to input split directory. Default: {_util._DEFAULT_INPUT}",
+        help=f"Path to input directory. Default: {_util._DEFAULT_INPUT}",
     )
     ap.add_argument(
         "--output-dir",
