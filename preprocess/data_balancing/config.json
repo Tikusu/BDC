@@ -4,5 +4,16 @@
   },
   "undersample": {
     "2_Organic": 8000
+  },
+  "augmentation_params": {
+    "flip_h_prob": 0.5,
+    "flip_v_prob": 0.25,
+    "rotation_range": [-30, 30],
+    "crop_range": [0.75, 1.0],
+    "brightness_range": [0.8, 1.2],
+    "contrast_range": [0.8, 1.2],
+    "saturation_range": [0.75, 1.25],
+    "blur_prob": 0.3,
+    "blur_max_radius": 1.5
   }
 }
