@@ -15,5 +15,9 @@
     "saturation_range": [0.75, 1.25],
     "blur_prob": 0.3,
     "blur_max_radius": 1.5
+  },
+  "undersample_params": {
+    "extractor_model": "efficientnet_b0",
+    "batch_size": 1024
   }
 }

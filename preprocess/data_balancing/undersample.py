@@ -12,15 +12,16 @@ import utils as _util
 from utils import collect_images
 from utils import _cuda_available
 
-def _extract_features(files: list[Path], device: str) -> "np.ndarray":
-    """Extract L2-normalised embeddings using EfficientNet-B0 (global avg pool)."""
+
+def _extract_features(files: list[Path], model_name: str, device: str) -> "np.ndarray":
+    """Extract L2-normalised embeddings using specified model (global avg pool)."""
     import numpy as np
     import torch
     import timm
     from torchvision import transforms
 
-    print("  Loading EfficientNet-B0 for feature extraction…")
-    model = timm.create_model("efficientnet_b0", pretrained=True, num_classes=0)
+    print(f"  Loading {model_name} for feature extraction…")
+    model = timm.create_model(model_name, pretrained=True, num_classes=0)
     model.eval()
     model.to(device)
 
@@ -54,6 +55,8 @@ def undersample_class(
     target: int,
     seed: int,
     device: str,
+    extractor_model: str,
+    batch_size: int,
     dry_run: bool,
 ) -> int:
     """
@@ -67,12 +70,12 @@ def undersample_class(
 
     if not dry_run:
         print(f"  Running MiniBatchKMeans (k={target}) on {len(src_files)} images…")
-        embeddings = _extract_features(src_files, device)
+        embeddings = _extract_features(src_files, extractor_model, device)
 
         kmeans = MiniBatchKMeans(
             n_clusters=target,
             random_state=seed,
-            batch_size=min(1024, len(src_files)),
+            batch_size=min(batch_size, len(src_files)),
             n_init=3,
             max_iter=300,
         )
@@ -101,27 +104,29 @@ def undersample_class(
         # Dry-run: just return the intended count
         return target
 
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description=(
-            ""
+            "Undersample majority classes using clustering on deep embeddings."
         )
     )
 
     ap.add_argument(
         "--input-dir",
-        default=_util._DEFAULT_INPUT,
+        default=str(_util._DEFAULT_INPUT),
     )
     ap.add_argument(
         "--output-dir",
-        default=_util._DEFAULT_OUTPUT,
+        default=str(_util._DEFAULT_OUTPUT),
     )
     ap.add_argument(
         "--config",
-        default=_util._CONFIG_PATH,
+        default=str(_util._CONFIG_PATH),
     )
     ap.add_argument(
         "--seed",
+        type=int,
         default=729,
     )
     ap.add_argument(
@@ -156,6 +161,10 @@ def main() -> None:
             sys.exit(1)
     
     undersample_targets = config.get("undersample", {})
+    under_params = config.get("undersample_params", {})
+    extractor_model = under_params.get("extractor_model", "efficientnet_b0")
+    batch_size = under_params.get("batch_size", 1024)
+
     if not undersample_targets:
         print("WARNING: No \"undersample\" key or target class in the config.")
         sys.exit(0)
@@ -171,7 +180,6 @@ def main() -> None:
     print("-" * 70)
 
     for class_name, target in undersample_targets.items():
-
         class_dir = train_dir / class_name
         dest = output_dir / "train" / class_name
 
@@ -184,10 +192,8 @@ def main() -> None:
 
         print(f"\nClass {class_name} (original: {n} → target: {target})")
 
-        
         if n <= target:
             print(f"Class {class_name} already has {n} images (target: {target}). Skipped.")
-            
             if not args.dry_run:
                 dest.mkdir(parents=True, exist_ok=True)
                 for f in tqdm(files, desc=f"copying {class_name} as-is", unit="img", leave=False):
@@ -195,13 +201,16 @@ def main() -> None:
             continue
 
         if not args.dry_run:
-            written = undersample_class(files, dest, target, args.seed, args.device, args.dry_run)
+            written = undersample_class(
+                files, dest, target, args.seed, args.device, extractor_model, batch_size, dry_run=False
+            )
             print(f"  ✓ Done undersampling: produced {written:,} total images.")
         else:
             print(f"  Dry run: would result in {target:,} total images.")
 
         print("-" * 70)
-        print("\Process done.")
+        print("Process done.")
+
 
 if __name__ == "__main__":
     main()
