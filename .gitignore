@@ -39,3 +39,6 @@
 # data-splitting
 /TrainImagesSplit/train/*
 /TrainImagesSplit/val/*
+
+# data-balancing
+/TrainImagesBalanced/*
