@@ -42,3 +42,4 @@
 
 # data-balancing
 /TrainImagesBalanced/*
+/preprocess/data_balancing/__pycache__/*
