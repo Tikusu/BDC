@@ -41,5 +41,5 @@
 /TrainImagesSplit/val/*
 
 # data-balancing
-/TrainImagesBalanced/*
+/TrainImagesBalanced/*.zip
 /preprocess/data_balancing/__pycache__/*
