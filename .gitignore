@@ -30,8 +30,16 @@
 # image outputs
 
 # post-anomaly-audit generated files
-/preprocess/post-anomaly-audit/corrupted_report.json
-/preprocess/post-anomaly-audit/duplicates_report.json
-/preprocess/post-anomaly-audit/class_distribution.png
+/preprocess/post_anomaly_audit/corrupted_report.json
+/preprocess/post_anomaly_audit/duplicates_report.json
+/preprocess/post_anomaly_audit/class_distribution.png
 
 /venv
+
+# data-splitting
+/TrainImagesSplit/train/*
+/TrainImagesSplit/val/*
+
+# data-balancing
+/TrainImagesBalanced/*.zip
+/preprocess/data_balancing/__pycache__/*

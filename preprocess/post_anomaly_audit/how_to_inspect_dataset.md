@@ -7,8 +7,6 @@ We have implemented a subfolder named `post_anomaly_audit` inside `preprocess/` 
 1. [inspect_dataset.py](./inspect_dataset.py) - Script to count files per class and plot the distribution.
 2. [check_corrupted_images.py](./check_corrupted_images.py) - Script to check for corrupt/damaged files in parallel using Python's Pillow library.
 
----
-
 ## 1. Dataset Inspection
 
 The dataset inspection script scans all subdirectories of `TrainImages` and counts files matching valid image extensions.
@@ -40,14 +38,6 @@ Total                     | <count>
 
 Distribution plot successfully saved to: <path_to_plot>
 ```
-
-### Generated Distribution Plot
-
-Here is the distribution plot saved as `class_distribution.png`:
-
-![Class Distribution](./class_distribution.png)
-
----
 
 ## 2. Corrupted Image Check
 

@@ -3,3 +3,4 @@ torchvision
 efficientnet_pytorch
 Pillow
 open_clip_torch
+tqdm

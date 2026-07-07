@@ -11,7 +11,7 @@ Added two scripts in `preprocess/post_anomaly_audit/`:
 
 ## How To Use
 
-### Step 1: Duplicate Detection
+### Duplicate Detection
 
 ```bash
 python3 preprocess/post_anomaly_audit/find_duplicates.py
@@ -22,12 +22,12 @@ python3 preprocess/post_anomaly_audit/find_duplicates.py
   --workers <number_of_threads>
 ```
 
-> NOTE:
+> [!NOTE]
 > Valid hamming distance value is 0-64
 
----
+### Quarantine Detected Duplicates
 
-### Step 2: Preview (dry-run, SAFE – no files will be moved)
+This is a preview run (dry-run, SAFE – no files will be moved)
 
 ```bash
 python3 preprocess/post_anomaly_audit/quarantine_duplicates.py
@@ -37,7 +37,7 @@ python3 preprocess/post_anomaly_audit/quarantine_duplicates.py
   --dry-run
 ```
 
-### Final: Permanent Quarantine
+### Permanent Quarantine
 
 Run this to actually move the detected dupliates
 
@@ -48,5 +48,5 @@ python3 preprocess/post_anomaly_audit/quarantine_duplicates.py
   --quarantine-dir <path_to_quarantine_folder>
 ```
 
-> !IMPORTANT
+> [!IMPORTANT]
 > Before running quarantine without `--dry-run`, make sure to review the `duplicates_report.json` to validate whether the threshold meets the needs. Increase the threshold for more quarantines, decrease it for more selectivity.
